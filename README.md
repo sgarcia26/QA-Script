@@ -17,5 +17,5 @@ Deliverables
   All repeatable bugs- from both collections(No duplicates).​\
   All Blocker bugs- from both collections(No duplicates)​.\
   All reports on build 10/8/2024- from both collections(No duplicates).​\
-  Report back the very 1st test case of User A, the middle test case (you determine that of B), and the final test case of your database of User C.\
+  Report back the very 1st test case of User A, the middle test case (you determine that of B), and the final test case of your database of User C.
 5. CSV export of user "Kevin Chaja" (use argparse to trigger code) - from collection 2
