@@ -1,0 +1,46 @@
+####################################################################################################################
+# Sergio Garcia
+# 10/31/2024
+# COMP 467
+# Project 2 - The Reckoning
+# Deliverable 2
+# 3. Database Answers (From "Database Calls" and done programmatically i.e python)
+# 	5. Report back the very 1st test case of User Matthew Bellman, 
+#	    the middle test case (you determine that of User Sergio Garcia), 
+#	    and the final test case of your database of User Denise Pacheco
+####################################################################################################################
+
+PS C:\Users\garci> & C:/Users/garci/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/garci/ProTest2/Project2_SG.py
+PS C:\Users\garci> python "C:\Users\garci\ProTest2\Project2_SG.py" --print_first_test --owner "Matthew Bellman"
+Last Test Case for Matthew Bellman:
+  Test #: 1
+  Build #: 2024-10-08 00:00:00
+  Category: Login
+  Test Case: Login page for wallet seems unhelpful.
+  Expected Result: Either for the site to redirect me to the extentions instalition page, or to open up the extention if it was installed  Actual Result: A popup that shows a usless QR code for mobile divices and a bucnch of desktop apps, that is not very useful for non-crypto users.
+  Repeatable?: Yes
+  Blocker?: No
+  Test Owner: Matthew Bellman
+PS C:\Users\garci> python "C:\Users\garci\ProTest2\Project2_SG.py" --print_middle_test --owner "Sergio Garcia"
+Middle Test Case for Sergio Garcia:
+  Test #: 2
+  Build #: 2024-10-08 00:00:00
+  Category: Game
+  Test Case: user case: not enough ways to counter enemy
+  Expected Result: there is more ways to counteract situations such as when you have lack of cards on deckk, to win the game.
+  Actual Result: when faced with no cards on deck it seem like your only option is to save by continuously surrendering rounds to draw single cards at a time
+  Repeatable?: yes
+  Blocker?: no
+  Test Owner: Sergio Garcia
+PS C:\Users\garci> python "C:\Users\garci\ProTest2\Project2_SG.py" --print_last_test --owner "Denise Pacheco"
+Last Test Case for Denise Pacheco:
+  Test #: 4
+  Build #: ########
+  Category: Arena/UI/EndersGate
+  Test Case: Improvement: The scroll bar should stop at the last item
+  Expected Result: Scroller stops after last card is fully shown     
+  Actual Result: Scroller bar goes far past the last item
+  Repeatable?: yes
+  Blocker?: no
+  Test Owner: Denise Pacheco
+PS C:\Users\garci> 

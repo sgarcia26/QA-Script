@@ -1,0 +1,201 @@
+####################################################################################################################
+# Sergio Garcia
+# 10/31/2024
+# COMP 467
+# Project 2 - The Reckoning
+# Deliverable 2
+# 3. Database Answers (From "Database Calls" and done programmatically i.e python)
+# 	1. List all work done by Your user - from both collections(No duplicates)
+####################################################################################################################
+
+PS C:\Users\garci> python "C:\Users\garci\ProTest2\Project2_SG.py" --list_owner "Sergio Garcia"
+Total rows found for owner 'Sergio Garcia': 17
+Number of duplicates found: 8
+
+_id: 67233b0b611c4b341f5aaa87
+Test #: 1
+Build #: 2024-10-07 00:00:00
+Category: First Gameplay Tutorial
+Test Case: user case: resizing screen prevents block certain functions/buttons.
+Expected Result: Objects will remain functional when resizing.
+Actual Result: Was unable to draw a card as the side GUI was infront of it
+Repeatable?: yes
+Blocker?: yes
+Test Owner: Sergio Garcia
+
+_id: 67233b0b611c4b341f5aaa88
+Test #: 1
+Build #: 2024-10-07 00:00:00
+Category: Deck Builder Tutorial
+Test Case: user case: help suggestion / tutorial blocks appear repetative and uniform.
+Expected Result: Starting a game for the first time I want to feel more engaged in the tutorial.
+Actual Result: The tutorial descriptions pop up the same way that I get less engaged.
+Repeatable?: yes
+Blocker?: no
+Test Owner: Sergio Garcia
+
+_id: 67233b0b611c4b341f5aaa89
+Test #: 1
+Build #: 2024-10-07 00:00:00
+Category: Game
+Test Case: user case: the blue highlights during the tutorials need to be resized
+Expected Result: The guiding highlights perfectly shows me exactly where to look and is appealing to find.
+Actual Result: Instead they often confuse me and makes me question the quality of the game.
+Repeatable?: yes
+Blocker?: no
+Test Owner: Sergio Garcia
+
+_id: 67233b0b611c4b341f5aaa8a
+Test #: 2
+Build #: 2024-10-08 00:00:00
+Category: Game
+Test Case: bug: game froze after Player 1 "Card Passive Effect Activated - Fire Damage#Select One enemy Guardian to Deal 50 Fire Damage" 
+Expected Result: After passive effect as been activated damage wouldve been afflicted on the enemy card and the game continues.
+Actual Result: Instead the timer and game froze and player was unable to click anything on the board, however surrender and all other side functions remain.
+Repeatable?: yes
+Blocker?: yes
+Test Owner: Sergio Garcia
+
+_id: 67233b0b611c4b341f5aaa8b
+Test #: 2
+Build #: 2024-10-08 00:00:00
+Category: Game
+Test Case: user case:  not enough ways to counter enemy
+Expected Result: there is more ways to counteract situations such as when you have lack of cards on deckk, to win the game.
+Actual Result: when faced with no cards on deck it seem like your only option is to save by continuously surrendering rounds to draw single cards at a time
+Repeatable?: yes
+Blocker?: no
+Test Owner: Sergio Garcia
+
+_id: 67233b1aa68cb7635e11b396
+Test #: 1
+Build #: 2024-10-15 00:00:00
+Category: Game
+Test Case: enhancement: Include voicelines, text, interaction between player and cards.
+Expected Result: After a card has "retired" or "retired" an opposing card, there would be some sort of interaction that plays out.       
+Actual Result: The card just gets blown off and feels boring
+Repeatable?: yes
+Blocker?: no
+Test Owner: Sergio Garcia
+
+_id: 67233b1aa68cb7635e11b397
+Test #: 2
+Build #: 2024-10-15 00:00:00
+Category: Game
+Test Case: feature: indications to show which cards have taken action during battle phase.
+Expected Result: During battle phase I'm able to view which cards can attack
+Actual Result: I have to continously keep in mind which cards have attacked while juggling figuring out who to attack with which card.   
+Repeatable?: yes
+Blocker?: no
+Test Owner: Sergio Garcia
+
+_id: 67233b1aa68cb7635e11b398
+Test #: 2
+Build #: 2024-10-15 00:00:00
+Category: Game
+Test Case: enhancement: winning doesnt feel rewarding.
+Expected Result: After winning a game some sort of progress or working towards is attained
+Actual Result: Instead you just get a victory screen without anything.
+Repeatable?: yes
+Blocker?: no
+Test Owner: Sergio Garcia
+
+_id: 67233b1aa68cb7635e11b399
+Test #: 3
+Build #: 2024-10-15 00:00:00
+Category: Game
+Test Case: bug: when activating void trap a visual glitch occurs.
+Expected Result: Actiavte the card during players turn and select an enemy to use on.
+Actual Result: When I tried to activate the card it did not go off until in the middle of the enemy's turn where visuals began overlapping.
+Repeatable?: no
+Blocker?: no
+Test Owner: Sergio Garcia
+
+_id: 67233b31b635e6e3049901a5
+Test #: 1
+Build #: 2024-10-21 00:00:00
+Category: Game
+Test Case: Feature: Toggle help to show tooltips explaining certain words.
+Expected Result: When I see a word Im not sure of, such as "MP" on a card, I want to have a way that describes to me what the word means.Actual Result: I have no option to know and I'm left confused.
+Repeatable?: yes
+Blocker?: no
+Test Owner: Sergio Garcia
+
+_id: 67233b31b635e6e3049901a6
+Test #: 1
+Build #: 2024-10-21 00:00:00
+Category: Game
+Test Case: Enhancement: attacks are too similar from one another
+Expected Result: When I attack using different cards, with different weapons or elements, I want to see distinct effects in attacks.     
+Actual Result: Attacking feel repetitive and less impactful.
+Repeatable?: yes
+Blocker?: no
+Test Owner: Sergio Garcia
+
+_id: 67233b31b635e6e3049901a7
+Test #: 2
+Build #: 2024-10-22 00:00:00
+Category: UI
+Test Case: Feature: A quick way to attack the enemy all at once.
+Expected Result: After defeating all enemy cards, I want to attack the enemy player with all remaining uses in a single move.
+Actual Result: Dragging each card to the enemy player one by one is repetitive, tedious, and a waste of time.
+Repeatable?: yes
+Blocker?: no
+Test Owner: Sergio Garcia
+
+_id: 67233b31b635e6e3049901a8
+Test #: 3
+Build #: 2024-10-22 00:00:00
+Category: Game
+Test Case: Enhancement/Balance: Gold Impact
+Expected Result: I want to be more mindful of the gold I spend.
+Actual Result: I don't pay attention to my gold amount and don't feel its impact.
+Repeatable?: yes
+Blocker?: no
+Test Owner: Sergio Garcia
+
+_id: 67233b31b635e6e3049901a9
+Test #: 4
+Build #: 2024-10-22 00:00:00
+Category: UI
+Test Case: Bug: "Mutual Destruction Rain" activates on enemy cards, but their HP doesn't change until the turn ends.
+Expected Result: Right after card is activated HP is changed in realtime.
+Actual Result: The HP doesn't change until turn ends.
+Repeatable?: no
+Blocker?: no
+Test Owner: Sergio Garcia
+
+_id: 67233b31b635e6e3049901aa
+Test #: 4
+Build #: 2024-10-22 00:00:00
+Category: UI
+Test Case: Enahncement: Music intenses alongside game progression.
+Expected Result: The music intensifies as the player nears victory or defeat for greater immersion.
+Actual Result: The music remains the same throughout, making the game feel repetitive.
+Repeatable?: yes
+Blocker?: no
+Test Owner: Sergio Garcia
+
+_id: 67233b31b635e6e3049901ab
+Test #: 5
+Build #: 2024-10-22 00:00:00
+Category: Game
+Test Case: Bug: "Jumba" card action move.
+Expected Result: After placing "Jumba" card down and activating ability, should be able to continue placing other cards or attacking.    
+Actual Result: After activating "Jumba" card action move, was no longer able to hire cards, attack, or set down card.
+Repeatable?: yes
+Blocker?: yes
+Test Owner: Sergio Garcia
+
+_id: 67233afa98a07c8440728d06
+Test #: 2
+Build #: 2024-10-08 00:00:00
+Category: Game
+Test Case: user case: not enough ways to counter enemy
+Expected Result: there is more ways to counteract situations such as when you have lack of cards on deckk, to win the game.
+Actual Result: when faced with no cards on deck it seem like your only option is to save by continuously surrendering rounds to draw single cards at a time
+Repeatable?: yes
+Blocker?: no
+Test Owner: Sergio Garcia
+
+PS C:\Users\garci> 

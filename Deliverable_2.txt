@@ -1,0 +1,1023 @@
+####################################################################################################################
+# Sergio Garcia
+# 10/31/2024
+# COMP 467
+# Project 2 - The Reckoning
+# Deliverable 2
+# 3. Database Answers (From "Database Calls" and done programmatically i.e python)
+# 	3. All Blocker bugs- from both collections(No duplicates)
+####################################################################################################################
+PS C:\Users\garci> & C:/Users/garci/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/garci/ProTest2/Project2_SG.py
+PS C:\Users\garci> python "C:\Users\garci\ProTest2\Project2_SG.py" --blocker_yes
+
+# The terminal doesnt allow me to go up to the beginning so it cuts off 
+...
+Test Case: In edit profile, we can't change player frame, title, banner.
+Expected Result: It's should be changeble
+Actual Result: It's doesn't clickable
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Axit Bhingradiya
+
+_id: 67233afa98a07c8440728cd8
+Test #: 1
+Build #: 2024-10-07 00:00:00
+Category: Login
+Test Case: Game does not restart unless the page is refreshed
+Expected Result: Play through a complete game without refresh page
+Actual Result: I can't play without page refreshed
+Repeatable?: yes
+Blocker?: yes
+Test Owner: Feni Bodar
+
+_id: 67233afa98a07c8440728cd9
+Test #: 2
+Build #: 2024-10-07 00:00:00
+Category: Edit Profile
+Test Case: Reporting the issue regarding the player frame, title, and banner is not working properly.
+Expected Result: It's should be working
+Actual Result: But it's not working
+Repeatable?: yes
+Blocker?: yes
+Test Owner: Feni bodar
+
+_id: 67233afa98a07c8440728cda
+Test #: 3
+Build #: 2024-10-08 00:00:00
+Category: Main Page
+Test Case: Latest News and Latest Update button is not working in this game.
+As a result, the latest news and updates cannot be accessed
+or displayed within the game interface.
+Expected Result: It's should be clickable
+Actual Result: But it's not clickable
+Repeatable?: yes
+Blocker?: yes
+Test Owner: Feni bodar
+
+_id: 67233afa98a07c8440728cdc
+Test #: 2
+Build #: 2024-10-02 00:00:00
+Category: Main page
+Test Case: bug: stuck on Loading decks… Please Wait
+Expected Result: Go to deck builder tutorial
+Actual Result: Screen is stuck
+Repeatable?: no
+Blocker?: yes
+Test Owner: Alexander Chakmakian
+
+_id: 67233afa98a07c8440728ce1
+Test #: 1
+Build #: 2024-10-09 00:00:00
+Category: Main Page
+Test Case: If you navigate to the adventure tab, you can't go back :(
+Expected Result: Expected back button to work
+Actual Result: Doesn't work
+Repeatable?: yes
+Blocker?: yes
+Test Owner: Garrette Clarke
+
+_id: 67233afa98a07c8440728ce5
+Test #: 2
+Build #: 2024-10-08 00:00:00
+Category: Game
+Test Case: bug: timer isn't going down due to high latency
+Expected Result: Timer goes down to 0 to continue the game
+Actual Result: Timer is stuck at 56 seconds and cannot proceed with the game.
+Repeatable?: yes
+Blocker?: yes
+Test Owner: Kyle Deocampo
+
+_id: 67233afa98a07c8440728ce6
+Test #: 1
+Build #: 2024-10-08 00:00:00
+Category: Tutorial
+Test Case: Cannot click on deck builder after being prompted to do so
+Expected Result: I expect to be on the deck builder tab
+Actual Result: Frozen on Luna saying to head over to the deck builder
+Repeatable?: No
+Blocker?: Yes
+Test Owner: Seng Dieng
+
+_id: 67233afa98a07c8440728ce7
+Test #: 2
+Build #: 2024-10-08 00:00:00
+Category: Adventures
+Test Case: Cannot exit out of adventure
+Expected Result: Going back to main menu
+Actual Result: Frozen on the adventure page
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Seng Dieng
+
+_id: 67233afa98a07c8440728ce8
+Test #: 3
+Build #: 2024-10-08 00:00:00
+Category: Tutorial
+Test Case: Clicking arena while in deck building tutorial with no deck built
+Expected Result: Being able to press okay and leaving the arena
+Actual Result: Stuck on Luna saying creating a new deck while being on arena prompt with no deck built
+Repeatable?: nan
+Blocker?: Yes
+Test Owner: Seng Dieng
+
+_id: 67233afa98a07c8440728cf2
+Test #: nan
+Build #: 2024-10-06 00:00:00
+Category: Profile
+Test Case: tried to update profile but it's not working
+Expected Result: profile should change
+Actual Result: profile didn't change
+Repeatable?: yes
+Blocker?: yes
+Test Owner: Krunal Gadhiya
+
+_id: 67233afa98a07c8440728cf3
+Test #: nan
+Build #: 2024-10-08 00:00:00
+Category: Main page
+Test Case: latest update and lateness new button is not working
+Expected Result: button should work
+Actual Result: button didn't work
+Repeatable?: yes
+Blocker?: yes
+Test Owner: Krunal Gadhiya
+
+_id: 67233afa98a07c8440728cf4
+Test #: nan
+Build #: 2024-10-08 00:00:00
+Category: Game background sound
+Test Case: I've tried to click the sound button but it's not working on my side
+Expected Result: I should be able to change sound settings
+Actual Result: nan
+Repeatable?: yes
+Blocker?: yes
+Test Owner: Krunal Gadhiya
+
+_id: 67233afa98a07c8440728cf9
+Test #: 3
+Build #: 2024-10-04 00:00:00
+Category: Login/UI/Game/Main Page
+Test Case: Glitch: was kicked back to login during game
+user case: screen changed to login
+Expected Result: Uninterupted Gameplay
+Actual Result: Connection Issue
+Repeatable?: no
+Blocker?: yes
+Test Owner: Anthony Galindo
+
+_id: 67233afa98a07c8440728cfc
+Test #: 3
+Build #: 2024-02-08 00:00:00
+Category: Game
+Test Case: clicking on cursed jian at the beginning makes game freeze
+Expected Result: I'm able to select one guardian on opponet's side after selecting cursed jian
+Actual Result: the whole game just froze, wasnÕt able to click on anything other than exit after choosing to activate cursed jian card   
+Repeatable?: yes
+Blocker?: yes
+Test Owner: Mariella G.
+
+_id: 67233afa98a07c8440728cfe
+Test #: 5
+Build #: 2024-02-08 00:00:00
+Category: game
+Test Case: the game was stuck when Luna told me to attack the last guardian
+Expected Result: I am able to attack the last guardian
+Actual Result: the whole game stayed on a loop, when trying to attack the last guardian the game kept showing that it wasnÕt my turn even though I waited, it never became my turn I had to exit
+Repeatable?: yes
+Blocker?: yes
+Test Owner: Mariella G.
+
+_id: 67233afa98a07c8440728d00
+Test #: 1
+Build #: 2024-10-08 00:00:00
+Category: Login
+Test Case: bug: infinite loading screen on connecting/scanning wallet
+Expected Result: I expected the wallet to connect after a reasonable amount of time after scanning with the metamask app on my phone (a few seconds)
+Actual Result: It became an infinite loading screen, I probably waited 5 minutes before closing and reopening the app to try again. I also reopened the enders gate website and selected the Skale option to pop up the QR code again.
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Gerard Gandionco
+
+_id: 67233afa98a07c8440728d07
+Test #: 1
+Build #: 2024-10-03 00:00:00
+Category: UI
+Test Case: When you Start the "Deck Building Tutorial," Luna is Blocking the Deck Builder Option, Making it Hard to See/Find.
+Expected Result: Find the Button, Click the Button, and Progress to the Next Step.
+Actual Result: Couldn't Really Find the Button to Progress.
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Harutyun Gevoglanyan
+
+_id: 67233afa98a07c8440728d13
+Test #: 1
+Build #: 2024-10-06 00:00:00
+Category: Main Page
+Test Case: User Case: Going to "Tutorials" Main Page -> "Play" Button" from "Deck Builder Tutorial", After that unable to continue because you cannot click on "Deck Builder" on main page
+Expected Result: Smooth and ready to start tutorial right away
+Actual Result: The tutorial instruction itself is covering "Deck Builder" so unable to click on "Deck Builder"
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Kaung Khant
+
+_id: 67233afa98a07c8440728d14
+Test #: 2
+Build #: 2024-10-08 00:00:00
+Category: Adventure Option
+Test Case: Bug: Buttons on "Adventure" are not working
+Expected Result: After clicking on"Adventure" and checking, being able to go back to Main Page or click on other buttons on "Adventure"  
+Actual Result: Freeze or Stuck on "Adventure" Page and unable to click on other buttons like "Deck Builder" at the left bottom, unable to click on "Back", "Home" and other buttons
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Kaung Khant
+
+_id: 67233afa98a07c8440728d15
+Test #: 1
+Build #: 2024-10-06 00:00:00
+Category: UI
+Test Case: Profile doesn't change in Arena
+Expected Result: Same profile in home screen as well as game
+Actual Result: Our profile looks little different Arena and home screen
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Naitik Kheni
+
+_id: 67233afa98a07c8440728d16
+Test #: 2
+Build #: 2024-10-06 00:00:00
+Category: UI
+Test Case: Win/Lose doen't change in the profile
+Expected Result: Win/Lose should be change as per our Arena game record
+Actual Result: Acording to me there is nothing change in our game profile as per considering our Arena win/lose record
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Naitik Kheni
+
+_id: 67233afa98a07c8440728d17
+Test #: 3
+Build #: 2024-10-06 00:00:00
+Category: GAME
+Test Case: Stuck in starting and middle of Arena mode
+Expected Result: It should be smoothly playble in Arena without any stuck problem
+Actual Result: After my turn clock was stuck so, the game didn't move forward
+Repeatable?: No
+Blocker?: Yes
+Test Owner: Naitik Kheni
+
+_id: 67233afa98a07c8440728d18
+Test #: 1
+Build #: 2024-10-08 00:00:00
+Category: UI
+Test Case: Bug: Phase Change UI freezes tutorial
+Expected Result: Follow tutorial steps and have freedom to press buttons on the board in between steps.
+Actual Result: Tutorial prompts to change phase. If you click it once MORE before the next tutorial step, the UI will freeze.
+Repeatable?: yes
+Blocker?: Yes
+Test Owner: Greg Khrom
+
+_id: 67233afa98a07c8440728d1b
+Test #: 1
+Build #: 2024-10-06 00:00:00
+Category: Game
+Test Case: Bug: Game froze during opponent's turn
+Expected Result: Opponent finishes turn
+Actual Result: Timer stopped and game froze
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Samuel Lee
+
+_id: 67233afa98a07c8440728d25
+Test #: 1
+Build #: 2024-10-08 00:00:00
+Category: Deck Builder Tutorial
+Test Case: Once you add 20 Gaurdians any more gaurdians added cannot be removed, so if you fill your 30 alloted slotes with just gaurdians you wont be able to remove them to add reaction and action cards to complete the tutorial
+Expected Result: Remove button to work if you have more than 20 gaurdians, but be blocked if you have 20 gaurdians
+Actual Result: Had 26 Gaurdians and Couldn't remove them to finsih the task
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Tigran Manukyan
+
+_id: 67233afa98a07c8440728d30
+Test #: 6
+Build #: 2024-10-08 00:00:00
+Category: game
+Test Case: bug: doesn't let me click the X button in the build your deck tutorial on the step when needed to add atleast 20 guradians    
+Expected Result: expected to let me click the X button so I can just scroll throught the free to play cars and look at specific ones to add
+Actual Result: stuck on the details screen for the cards having to click on the arrows to see the next card one at a time, wasting time for me to get to the end of the cards. not allowing me to quickly got to a specific card I think looks interesting
+Repeatable?: yes
+Blocker?: yes
+Test Owner: derick maradiaga
+
+_id: 67233afa98a07c8440728d31
+Test #: 7
+Build #: 2024-10-08 00:00:00
+Category: Ui
+Test Case: user case: naming your deck
+Expected Result: expected to have a confirm/submit button for when I am done with naming my deck
+Actual Result: after typing the name of my deck ther was no UI like a button that I could press to save the name of the deck not even the tutorial character said anything on how to save. Finally fiugred to just press enter.
+Repeatable?: yes
+Blocker?: yes
+Test Owner: derick maradiaga
+
+_id: 67233afa98a07c8440728d38
+Test #: 1
+Build #: 2024-10-08 00:00:00
+Category: Login/UI/Game/Main Page/Arena/Settings
+Test Case: clicking on camera setting doesn't work
+Expected Result: change camera setting
+Actual Result: camera setting stays in default
+Repeatable?: yes
+Blocker?: yes
+Test Owner: divy mente
+
+_id: 67233afa98a07c8440728d3b
+Test #: 3
+Build #: 2024-10-07 00:00:00
+Category: UI/Main Page
+Test Case: Clicked on the 'Adventure' button in the
+ main menu and then the back arrow
+button and home button did nothing.
+Expected Result: To be taken back to the main
+menu.
+Actual Result: Nothing occured.
+Repeatable?: yes
+Blocker?: Yes
+Test Owner: Michael Metcalf
+
+_id: 67233afa98a07c8440728d44
+Test #: 1
+Build #: 2024-10-06 00:00:00
+Category: Log In. MetaMask/WalletConnect possible connection issue
+Test Case: When reaching towards "Skale" connect option via this route. "Wallet Login" -> "MetaMask" -> "Skale". It seems the mobile option of using WalletConnect is not operational at this time
+Expected Result: Expected Result is for the mobile app MetaMask to connect to the game via the QR code prompted
+Actual Result: Actual Result is when using the QR code there is an infinite loading indicator on the mobile app
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Mikel Nuila
+
+_id: 67233afa98a07c8440728d45
+Test #: 2
+Build #: 2024-10-06 00:00:00
+Category: LogIn. Starting gameplay
+Test Case: After connecting through WalletConnect there was no indication or process option given to move forward to gameplay. I tried refreshing and connecting again however there was no option for me to start any gameplay.
+Expected Result: Expected Result was for user to be prompted to start a tutorial or gameplay
+Actual Result: Actual Result was no new option be available
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Mikel Nuila
+
+_id: 67233afa98a07c8440728d4c
+Test #: nan
+Build #: 2024-10-06 00:00:00
+Category: Game
+Test Case: Activating set card in the Tutorial, but I misslick and tried to use a card in hand
+Expected Result: I could go back to activate the set card
+Actual Result: I got stuck in trying to activate the event card (Fighter Essence) from my hand, and couldn't exit back to the field. I had to close the tutorial to exit
+Repeatable?: yes
+Blocker?: yes
+Test Owner: AB
+
+_id: 67233afa98a07c8440728d5d
+Test #: nan
+Build #: 2024-10-08 00:00:00
+Category: Game
+Test Case: Tried to draw a card
+Expected Result: Should be able to draw card in draw phase
+Actual Result: could not draw one
+Repeatable?: no
+Blocker?: yes
+Test Owner: AB
+
+_id: 67233afa98a07c8440728d5f
+Test #: nan
+Build #: 2024-10-08 00:00:00
+Category: Game
+Test Case: Going to main phase during arena
+Expected Result: Should go to main phase
+Actual Result: I couldn't transition any phase
+Repeatable?: yes
+Blocker?: yes
+Test Owner: AB
+
+_id: 67233afa98a07c8440728d60
+Test #: nan
+Build #: 2024-10-08 00:00:00
+Category: Game
+Test Case: Tried to play a game
+Expected Result: should play the video game
+Actual Result: straights up loops phases. This was after a series of not being able to play arena. Refreshing fixzed it
+Repeatable?: yes
+Blocker?: yes
+Test Owner: AB
+
+_id: 67233afa98a07c8440728d62
+Test #: 1
+Build #: 2024-10-07 00:00:00
+Category: Login/UI/Game/FirstGameplayTutorial
+Test Case: ex bug: continue after tutorial steps. ex user case: does not allow continuation and froze over different layers
+Expected Result: finish first turn to be able to defend
+Actual Result: froze while explaining card selection on first phase and showed a layered interface
+Repeatable?: yes
+Blocker?: Yes
+Test Owner: David Antonio Pedroza
+
+_id: 67233afa98a07c8440728d65
+Test #: 2
+Build #: 2024-10-06 00:00:00
+Category: Tutorial/UI/GameMechanics
+Test Case: End turn and await opponent's next move
+Expected Result: Ability to end turn
+Actual Result: Button is highlighted however unable to press
+Repeatable?: yes (w: 624,h:1264) display size, resizing does not fix this
+Blocker?: yes
+Test Owner: Alessandro Pelayo
+
+_id: 67233afa98a07c8440728d69
+Test #: 1
+Build #: 2024-10-08 00:00:00
+Category: UI\First Gameplay Tutorial
+Test Case: UI interaction following tutorial prompts non responsive or no clear indication of response
+Expected Result: When pressing activate card the tutorial plays the card
+Actual Result: Game seemed to require multiple clicks to register desire to play card.
+Repeatable?: yes
+Blocker?: Yes
+Test Owner: Joshua Planovsky
+
+_id: 67233afa98a07c8440728d6d
+Test #: 5
+Build #: 2024-10-09 00:00:00
+Category: Gameplay
+Test Case: Cannot exit standby phase to go to main phase 1
+Expected Result: Standby phase should auto pass to main phase 1
+Actual Result: game halts on standby phase.
+Repeatable?: no
+Blocker?: yes
+Test Owner: Joshua Planovsky
+
+_id: 67233afa98a07c8440728d6e
+Test #: 6
+Build #: 2024-10-09 00:00:00
+Category: Gameplay
+Test Case: Game progress halts after certain amount of time spent in a single match
+Expected Result: Game should progress smoothly regardless of amount of turns taken.
+Actual Result: Game halted on battle phase with timer frozen with buttons still responsive.
+Repeatable?: yes
+Blocker?: yes
+Test Owner: Joshua Planovsky
+
+_id: 67233afa98a07c8440728d78
+Test #: 2
+Build #: 2024-10-07 00:00:00
+Category: Login/UI/Game/Tutorial
+Test Case: when testing tutorial it just didn't let me click when attacking
+Expected Result: should of let me attack
+Actual Result: didn't let me attack
+Repeatable?: no
+Blocker?: yes
+Test Owner: Alberto Santana
+
+_id: 67233afa98a07c8440728d79
+Test #: 3
+Build #: 2024-10-07 00:00:00
+Category: Login/UI/Game/deck building
+Test Case: nothing happened when clicking on how to obtain/or related cards
+Expected Result: should of gave me info about obtaining and related cards
+Actual Result: nothing happened
+Repeatable?: yes
+Blocker?: yes
+Test Owner: Alberto Santana
+
+_id: 67233afa98a07c8440728d7c
+Test #: 3
+Build #: 2024-10-08 00:00:00
+Category: Main Page
+Test Case: Buttons to go back from Adventure and go home do not work in Adventure
+Expected Result: To go back to home page
+Actual Result: Stuck in adventure
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Robert Stevenson
+
+_id: 67233afa98a07c8440728d80
+Test #: 7
+Build #: 2024-10-08 00:00:00
+Category: Text Chat
+Test Case: Copying and pasting a million words locks freezes the game. Copy/Paste Used: https://www.damienelliott.com/1-million-words-ready-to-copy-and-paste-lorem-ipsum/
+Expected Result: To not allow large amount of text
+Actual Result: Allows and freezes
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Robert Stevenson
+
+_id: 67233afa98a07c8440728d83
+Test #: 10
+Build #: 2024-10-08 00:00:00
+Category: Main Page
+Test Case: Copy & Paste million words into text area of friends tab freezes game
+Expected Result: Character Limit
+Actual Result: Pastes and freezes
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Robert Stevenson
+
+_id: 67233afa98a07c8440728d9c
+Test #: 1
+Build #: Use date you
+tested on 10/6/2024
+Category: Login/UI
+Test Case: I accidentally logged in using "Trust" crypto app instead of MetaMask. It didn’t let me go back and login using MetaMask. I had to clear history and do it again
+Expected Result: To be to logout and use MetaMask
+Actual Result: I could not login or logout, therefore could not play
+Repeatable?: yes
+Blocker?: Yes
+Test Owner: Shadi Zgheib
+
+_id: 67233afa98a07c8440728da2
+Test #: 4
+Build #: Use date you
+tested on
+10/6/2024
+Category: Login/UI/Game/Adventure
+Test Case: Tried to enter the campagin, the chapter didn't work. However, my issue is the game didn't let me go back and forth, not even 
+the home button worked
+Expected Result: Go back to main menu
+Actual Result: stayed in the adventure menu and had to reload page
+Repeatable?: yes
+Blocker?: Yes
+Test Owner: Shadi Zgheib
+
+_id: 67233afa98a07c8440728da4
+Test #: 5
+Build #: Use date you
+tested on
+10/6/2024
+Category: Login/UI
+Test Case: I clicked on email login and it didn't work. However, the screen got stuck on email login….
+Expected Result: to be able to login
+Actual Result: stuck on login page
+Repeatable?: yes
+Blocker?: Yes
+Test Owner: Shadi Zgheib
+
+_id: 67233afa98a07c8440728dab
+Test #: 1
+Build #: ########
+Category: Game
+Test Case: User case: Turn change without me even getting to do anything.
+Expected Result: To have more action.
+Actual Result: It kept switching to AI
+Repeatable?: yes
+Blocker?: yes
+Test Owner: Zaid Alabwaini
+
+_id: 67233afa98a07c8440728dac
+Test #: 2
+Build #: ########
+Category: Game
+Test Case: User Case: Timer stopped moving for AI turn after all my cards died.
+Expected Result: For me to able to play or being able to get a Defeat screen.
+Actual Result: I couldn't continue the second game for that reason.
+Repeatable?: yes
+Blocker?: yes
+Test Owner: Zaid Alabwaini
+
+_id: 67233afa98a07c8440728dad
+Test #: 3
+Build #: ########
+Category: Main page
+Test Case: Game: It crashed on Adventure select
+Expected Result: To be able to go back to the home page
+Actual Result: Game froze all the buttons were clicking, but nothing responding
+Repeatable?: yes
+Blocker?: yes
+Test Owner: Zaid Alabwaini
+
+_id: 67233afa98a07c8440728dae
+Test #: 1
+Build #: ########
+Category: Main Page
+Test Case: Feedback could have been integrated into the game itself.
+Expected Result: On clicking feedback, a form could pop up on the main page itself.
+Actual Result: It redirects to the new tab of google form.
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Birva Babaria
+
+_id: 67233afa98a07c8440728daf
+Test #: 2
+Build #: ########
+Category: Game
+Test Case: Master volume and Music volume: While playing game music was not decreasing even after scrolling it to lowest as possible     
+Expected Result: Music should be completely turned off.
+Actual Result: There were no changes noticed on music
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Birva Babaria
+
+_id: 67233afa98a07c8440728db0
+Test #: 3
+Build #: ########
+Category: Edit profile
+Test Case: Changing the player icon is slower than expected.
+Expected Result: Player icon should be changed instantly.
+Actual Result: It takes few seconds to make an impact to the profile icon
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Birva Babaria
+
+_id: 67233afa98a07c8440728db1
+Test #: 4
+Build #: 2024-10-14 00:00:00
+Category: Main Page
+Test Case: For pop-up of Anime Ultraman, the 'Read more' button doesn't work.
+Expected Result: Should open more information on new tab
+Actual Result: No actions noted after clicking
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Birva Babaria
+
+_id: 67233afa98a07c8440728dc3
+Test #: 1
+Build #: ########
+Category: Game
+Test Case: Bug: Display different name of our player.
+Expected Result: Display player name, which set by user.
+Actual Result: Display some randome string.
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Axit Bhingradiya
+
+_id: 67233afa98a07c8440728dc4
+Test #: 2
+Build #: ########
+Category: UI
+Test Case: User case: Latency overlap to player name.
+Expected Result: Change the place for latency.
+Actual Result: Latency display over player name.
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Axit Bhingradiya
+
+_id: 67233afa98a07c8440728dc5
+Test #: 3
+Build #: ########
+Category: Main page
+Test Case: User case: In profile, win/losses is not updating.
+Expected Result: win/loses should be updated after every match.
+Actual Result: It's remaining same.
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Axit Bhingradiya
+
+_id: 67233afa98a07c8440728dc9
+Test #: 1
+Build #: ########
+Category: Game
+Test Case: I can not show added onlie players list in this game.
+Expected Result: It should be shown all online players list in this game
+Actual Result: But show only added players
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Feni Bodar
+
+_id: 67233afa98a07c8440728dca
+Test #: 2
+Build #: ########
+Category: Home page
+Test Case: In this game I can't show online players.
+Expected Result: This game should have access to show online players
+Actual Result: But not show online players
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Feni Bodar
+
+_id: 67233afa98a07c8440728dcb
+Test #: 3
+Build #: ########
+Category: Home page
+Test Case: "Explore" button is not working In card shop home page
+Expected Result: It should be working
+Actual Result: But it's not working
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Feni Bodar
+
+_id: 67233afa98a07c8440728dcc
+Test #: 4
+Build #: ########
+Category: Home page
+Test Case: "Recently Sold" cards button is not working and soldded cards list not show
+Expected Result: Sold out cards list should show in this game
+Actual Result: But Recently Sold button is not working
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Feni Bodar
+
+_id: 67233afa98a07c8440728dcd
+Test #: 1
+Build #: ########
+Category: Main page
+Test Case: ex user case: Game on my gaming desktop makes my CPU run at 100% at game is unplayable. CPU: AMD Ryzen 7 5800X
+Expected Result: Game to work smoothly as it runs my other games in 4k
+Actual Result: Game freezes or can't load
+Repeatable?: yes
+Blocker?: yes
+Test Owner: Alexander Chakmakian
+
+_id: 67233afa98a07c8440728dd6
+Test #: nan
+Build #: ########
+Category: Screen
+Test Case: UI for clicking return does not scale to the resolution of monitor ( i have 3440x1440 33inches)
+Expected Result: be able to see return
+Actual Result: cannot see return
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Keith Chua
+
+_id: 67233afa98a07c8440728dda
+Test #: 2
+Build #: ########
+Category: UI
+Test Case: Once you hit adventure, you still can't go back to the main page ;(
+Expected Result: It should let you
+Actual Result: It doesn't
+Repeatable?: yes
+Blocker?: yes
+Test Owner: Garrette Clarke
+
+_id: 67233afa98a07c8440728de2
+Test #: 4
+Build #: ########
+Category: Game
+Test Case: user case: explain the context of each phase under the announcement or in the middle of that phase
+Expected Result: I expect to see a small description of what each phase means.
+Actual Result: since I suggested that the phase-announcements be extended for a bit longer (1 to 2 seconds), there should be a small description (perhaps instructions, such as "draw a card" or "activate any action cards". This helps me understand why we need two phases instead of one, and what I expect to do in this phase. additionally, this could also be implemented in the tutorial by further elaborating each phase/step of the game.
+Repeatable?: yes
+Blocker?: yes
+Test Owner: Martin Dela Cruz
+
+_id: 67233afa98a07c8440728de8
+Test #: 1
+Build #: ########
+Category: bugs
+Test Case: After all player cards were defeated, the timer stopped during the AI’s turn.
+Expected Result: The game should allow the player to continue or display a Defeat screen.
+Actual Result: The game froze, preventing any further gameplay.
+Repeatable?: yes
+Blocker?: yes
+Test Owner: Amgad Fahim
+
+_id: 67233afa98a07c8440728de9
+Test #: 2
+Build #: ########
+Category: bugs
+Test Case: The game switched turns to the AI without allowing the player to take any action.
+Expected Result: Players should be able to access Adventure mode and return to the home screen without any problems.
+Actual Result: The turn shifted to the AI unexpectedly, interrupting the gameplay.
+Repeatable?: yes
+Blocker?: yes
+Test Owner: Amgad Fahim
+
+_id: 67233afa98a07c8440728dea
+Test #: 3
+Build #: ########
+Category: Main page
+Test Case: The game crashed when trying to enter "Adventure" mode from the main menu.
+Expected Result: To be able to go back to the home page
+Actual Result: The game froze, with buttons becoming unresponsive, even though they still appeared clickable.
+Repeatable?: yes
+Blocker?: yes
+Test Owner: Amgad Fahim
+
+_id: 67233afa98a07c8440728e11
+Test #: 1
+Build #: 2024-10-15 00:00:00
+Category: Game
+Test Case: Bug: cannot even start to play "First Game Play Tutorial" because of game breaking
+Expected Result: Get ready to play tutorial and start learning how the game works
+Actual Result: Game-breaking bug is making the game stuck in infinite cycle of switiching phases in the very beginning so the user cannot start playing
+Repeatable?: No
+Blocker?: Yes
+Test Owner: Kaung Khant
+
+_id: 67233afa98a07c8440728e17
+Test #: 4
+Build #: 14/10/24
+Category: GAME
+Test Case: Gameplay
+Expected Result: If we near to victory than let us win
+Actual Result: If we near to victory that time AI HP STUCK and if we Try to lower its HP , we cant and it stuck
+Repeatable?: YES
+Blocker?: YES
+Test Owner: Naitik Kheni
+
+_id: 67233afa98a07c8440728e23
+Test #: 1
+Build #: ########
+Category: Arena\Battle Phase
+Test Case: After killing the last defender of the opponent, game froze, I had no more moves left, but it would not let me end my battle phase. Even tho I had used all my attackers, it gave the animation of being able to attack the opponent directly, but would not let me do 
+it. Game was completely frozen.
+Expected Result: Ends battle phase
+Actual Result: Game froze
+Repeatable?: No
+Blocker?: Yes
+Test Owner: Tigran Manukyan
+
+_id: 67233afa98a07c8440728e25
+Test #: 3
+Build #: ########
+Category: Arena\Main Phase
+Test Case: For starting second. During th3 opponen's main phase, the option to hire a gaurdian is available. If clicked it bugs out and it automaticly skips your turn every time, automatically draws cards for you then skips the rest of your turn. The attaking AI does not battle, but still hires charecters, and lets the time run out.
+Expected Result: Does not let you hire charecter when its not your turn
+Actual Result: The game automatilly skips your turn for every future round.
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Tigran Manukyan
+
+_id: 67233afa98a07c8440728e27
+Test #: 5
+Build #: ########
+Category: Arena\Battle Phase
+Test Case: After losing a match game got stuck, no ending screen.
+Expected Result: A Defeat screen shows up
+Actual Result: Game Froze
+Repeatable?: No
+Blocker?: Yes
+Test Owner: Tigran Manukyan
+
+_id: 67233afa98a07c8440728e29
+Test #: 1
+Build #: ########
+Category: game/ui
+Test Case: bug: settings exit button
+Expected Result: exit the settings when clicking the X button
+Actual Result: clicking the X button didn’t close the settings ui
+Repeatable?: yes
+Blocker?: Yes
+Test Owner: derick maradiaga
+
+_id: 67233afa98a07c8440728e35
+Test #: 2
+Build #: ########
+Category: nan
+Test Case: leaderboard has bug
+Expected Result: positive numbers
+Actual Result: shows a negative number on ranking
+Repeatable?: yes
+Blocker?: yes
+Test Owner: divy mente
+
+_id: 67233afa98a07c8440728e3b
+Test #: 3
+Build #: ########
+Category: Game
+Test Case: Game timer froze and the game would
+not advance no matter if I tried to
+advance to the next phase. When it
+happened I have the graveyard open and
+was clicking on my cards during battle
+ phase.
+Expected Result: For the game and timer to
+keep advancing.
+Actual Result: Game froze.
+Repeatable?: No
+Blocker?: Yes
+Test Owner: Michael Metcalf
+
+_id: 67233afa98a07c8440728e4d
+Test #: nan
+Build #: ########
+Category: GAME
+Test Case: In tutorial, after strengthening my guaridan's stats, I transition from battle to end turn.
+Expected Result: Game should transition phases normally
+Actual Result: The game couldn't transition after battle. I lost my turn somehow, then a blue rectangle spawned on my card hand. I cannot proceed further since it’s not my turn. Yet the timer doesn't stop, so I am now one with the eternity of passing time.
+Repeatable?: no?
+Blocker?: yes
+Test Owner: AB Paxtor Garcia
+
+_id: 67233afa98a07c8440728e4e
+Test #: nan
+Build #: ########
+Category: GAME UI
+Test Case: Can't activate cards in other phases besides main ones
+Expected Result: Get a message saying I can't activate fcards
+Actual Result: I get the message, but its cutoff towards the end lol
+Repeatable?: yes
+Blocker?: yes
+Test Owner: AB Paxtor Garcia
+
+_id: 67233afa98a07c8440728e63
+Test #: 2
+Build #: ########
+Category: Game/UI
+Test Case: Clicking the home button in the Adventure menu (on the Kingdom) does not return the user to the main menu.
+Expected Result: Much like the return button, pressing the home button should return the player to the main menu
+Actual Result: Nothing happens when button is pressed player is stuck in adventure mode unable to return
+Repeatable?: yes
+Blocker?: Yes
+Test Owner: Joshua Planovsky
+
+_id: 67233afa98a07c8440728e66
+Test #: 5
+Build #: ########
+Category: Gameplay/Mechanics
+Test Case: At the start of the game the game does not transition from standby to main phase #1 automatically.
+Expected Result: As it does throughout the rest of the match, the game should automatically transition between round phases
+Actual Result: Players are required to manually transition the round themselves leading to a jarring experience
+Repeatable?: yes
+Blocker?: yes
+Test Owner: Joshua Planovsky
+
+_id: 67233afa98a07c8440728e6c
+Test #: 1
+Build #: ########
+Category: Login
+Test Case: Closed to sign into metamask and wouldn't reopen
+Expected Result: the metamask login should have appeared
+Actual Result: the metamask login didn't appear
+Repeatable?: yes/no
+Blocker?: yes
+Test Owner: Alberto Santana
+
+_id: 67233afa98a07c8440728e6e
+Test #: 3
+Build #: ########
+Category: Login/UI/Game/Main Page/Arena
+Test Case: end about to end it froze
+Expected Result: finish the game
+Actual Result: stopped before being able to finsih
+Repeatable?: no
+Blocker?: yes
+Test Owner: Alberto Santana
+
+_id: 67233afa98a07c8440728e73
+Test #: 1
+Build #: ########
+Category: Login/UI/Metamask
+Test Case: When trying to log in using Metamask, the wallet connection fails if not already logged in.
+Expected Result: Metamask should prompt to log in if not already logged in.
+Actual Result: User is not prompted and login fails silently.
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Mahdi
+
+_id: 67233afa98a07c8440728e75
+Test #: 3
+Build #: ########
+Category: Deck Builder
+Test Case: The Deck Builder doesn’t allow saving a newly created deck.
+Expected Result: Newly created deck should be saved and visible in the deck list.
+Actual Result: Deck is not saved, and there is no error message displayed.
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Matteo
+
+_id: 67233afa98a07c8440728e76
+Test #: 4
+Build #: ########
+Category: Arena/Matchmaking
+Test Case: When attempting to join an arena match, the matchmaking queue gets stuck at “Searching for opponent”.
+Expected Result: Matchmaking should successfully find an opponent within a reasonable time frame.
+Actual Result: Queue remains stuck for over 5 minutes without finding an opponent.
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Shervin
+
+_id: 67233afa98a07c8440728e7a
+Test #: 3
+Build #: nan
+Category: Adventure Select
+Test Case: Verify home button functionality
+Expected Result: User should be able to go to home page when they click on home button
+Actual Result: I clicked on Adventure icon. Then I am pressing Home icon to go to home. But it is not working
+Repeatable?: NO
+Blocker?: YES
+Test Owner: Dhruv Vagadiya
+
+_id: 67233afa98a07c8440728e7b
+Test #: 4
+Build #: nan
+Category: Adventure
+Test Case: Verify Play button functionality
+Expected Result: User should be able to start the game if they press play button. If not possible there should be some alert or notification.
+Actual Result: User was not able to start game also no alert and message.
+Repeatable?: NO
+Blocker?: YES
+Test Owner: Dhruv Vagadiya
+
+_id: 67233afa98a07c8440728e82
+Test #: 2
+Build #: ########
+Category: Menu
+Test Case: Cant go back after pressing adventure
+Expected Result: I want to go to the main menu but button wont work
+Actual Result: Everytime I click the back arrow nothing happens
+Repeatable?: No
+Blocker?: Yes
+Test Owner: Nathan Wahba
+
+Total blocker rows found: 440
+Number of duplicates found: 66
+
+PS C:\Users\garci> 

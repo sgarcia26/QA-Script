@@ -1,0 +1,1016 @@
+####################################################################################################################
+# Sergio Garcia
+# 10/31/2024
+# COMP 467
+# Project 2 - The Reckoning
+# Deliverable 2
+# 3. Database Answers (From "Database Calls" and done programmatically i.e python)
+# 	4. All reports on build 10/8/2024- from both collections(No duplicates)
+####################################################################################################################
+# No cutoffs 
+
+PS C:\Users\garci> & C:/Users/garci/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/garci/ProTest2/Project2_SG.py
+PS C:\Users\garci> python "C:\Users\garci\ProTest2\Project2_SG.py"--build_10_8
+_id: 67233b0b611c4b341f5aaa8a
+Test #: 2
+Build #: 2024-10-08 00:00:00
+Category: Game
+Test Case: bug: game froze after Player 1 "Card Passive Effect Activated - Fire Damage#Select One enemy Guardian to Deal 50 Fire Damage" 
+Expected Result: After passive effect as been activated damage wouldve been afflicted on the enemy card and the game continues.
+Actual Result: Instead the timer and game froze and player was unable to click anything on the board, however surrender and all other side functions remain. 
+Repeatable?: yes
+Blocker?: yes
+Test Owner: Sergio Garcia
+
+_id: 67233b0b611c4b341f5aaa8b
+Test #: 2
+Build #: 2024-10-08 00:00:00
+Category: Game
+Test Case: user case:  not enough ways to counter enemy 
+Expected Result: there is more ways to counteract situations such as when you have lack of cards on deckk, to win the game.
+Actual Result: when faced with no cards on deck it seem like your only option is to save by continuously surrendering rounds to draw single cards at a time
+Repeatable?: yes
+Blocker?: no
+Test Owner: Sergio Garcia
+
+_id: 67233afa98a07c8440728cc0
+Test #: nan
+Build #: 2024-10-08 00:00:00
+Category: In Game
+Test Case: I tried to attack in the tutorial to attack, but it would only allow to exit the tutorial.
+Expected Result: To attack
+Actual Result: It didn't attack
+Repeatable?: No
+Blocker?: Yes "I couldn't continue the tutorial because I couldn't attack"
+Test Owner: Zaid Alabwaini
+
+_id: 67233afa98a07c8440728cc1
+Test #: nan
+Build #: 2024-10-08 00:00:00
+Category: In game
+Test Case: I tried to go in the tutroial again, but it didn't let me because I had to create a deck and the leading avatar was covering it so I had to press randmoly over the avatar to work.
+Expected Result: To highlight where the deck building option is and I didn't expect the avatar to be hiding it.
+Actual Result: It worked after I randomly pressed.
+Repeatable?: yes
+Blocker?: No
+Test Owner: Zaid Alabwaini
+
+_id: 67233afa98a07c8440728cc2
+Test #: nan
+Build #: 2024-10-08 00:00:00
+Category: In game
+Test Case: I think the avatar should move from being at the same spot especially when it comes to tutorial so the game can be more user friendly.
+Expected Result: For avatar to be on different side of the buttons need to be pressed.
+Actual Result: nan
+Repeatable?: No
+Blocker?: Somewhat if their impatient like me
+Test Owner: Zaid Alabwaini
+
+_id: 67233afa98a07c8440728cc6
+Test #: 1
+Build #: 2024-10-08 00:00:00
+Category: Login
+Test Case: Login page doesnt appear
+Expected Result: Login Page
+Actual Result: nan
+Repeatable?: No
+Blocker?: Yes
+Test Owner: Charles
+
+_id: 67233afa98a07c8440728cc9
+Test #: 1
+Build #: 2024-10-08 00:00:00
+Category: Game
+Test Case: sound or music seems to not work
+Expected Result: sound effects of some sort or background music
+Actual Result: no sound or audio
+Repeatable?: yes
+Blocker?: no
+Test Owner: Ramita Batchu
+
+_id: 67233afa98a07c8440728cca
+Test #: 1
+Build #: 2024-10-08 00:00:00
+Category: Login
+Test Case: clicking on "realm to explore/Skale" does not have anything pop up until clicked a few dozen times
+Expected Result: Clicking on "Skale" should give me a prompt to connect my wallet
+Actual Result: took a while to actually open the prompt
+Repeatable?: yes
+Blocker?: no
+Test Owner: Daniel Bautista
+
+_id: 67233afa98a07c8440728ccb
+Test #: nan
+Build #: 2024-10-08 00:00:00
+Category: Game
+Test Case: Tutorial tells me to switch to Main Phase 2, doing so stops the game
+Expected Result: The phase selector should switch to Main Phase 2
+Actual Result: Game is frozen, random blue box in the middle of screen which i presume is supposed to highlight the switch
+Repeatable?: no
+Blocker?: yes
+Test Owner: Daniel Bautista
+
+_id: 67233afa98a07c8440728ccc
+Test #: nan
+Build #: 2024-10-08 00:00:00
+Category: Game
+Test Case: Extremely High Latency <1000
+Expected Result: >100 latency
+Actual Result: <1000 Latency
+Repeatable?: yes
+Blocker?: yes
+Test Owner: Daniel Bautista
+
+_id: 67233afa98a07c8440728ccd
+Test #: nan
+Build #: 2024-10-08 00:00:00
+Category: Game
+Test Case: Couldnt get the tutorial finished in less than 15 minutes
+Expected Result: tutorial should be 15 minutes or less
+Actual Result: lasted longer due to low latency
+Repeatable?: yes
+Blocker?: yes
+Test Owner: Daniel Bautista
+
+_id: 67233afa98a07c8440728cce
+Test #: 1
+Build #: 2024-10-08 00:00:00
+Category: Login
+Test Case: Login page for wallet seems unhelpful.
+Expected Result: Either for the site to redirect me to the extentions instalition page, or to open up the extention if it was installed  
+Actual Result: A popup that shows a usless QR code for mobile divices and a bucnch of desktop apps, that is not very useful for non-crypto users.
+Repeatable?: Yes
+Blocker?: No
+Test Owner: Matthew Bellman
+
+_id: 67233afa98a07c8440728ccf
+Test #: 2
+Build #: 2024-10-08 00:00:00
+Category: Main Page
+Test Case: Tutorial prompt shows up again after clicking No once you are back to the main menu
+Expected Result: For it to not show up again after doing it.
+Actual Result: It shows up.
+Repeatable?: Yes
+Blocker?: No
+Test Owner: Matthew Bellman
+
+_id: 67233afa98a07c8440728cd0
+Test #: 3
+Build #: 2024-10-08 00:00:00
+Category: Deck Tutorial
+Test Case: A button gets blocked by the games tutor (Luna) at the start of the deck tutorial, making it hard to click on.
+Expected Result: For her to not be in the way of the button the user needs to click on.
+Actual Result: She's in my way.
+Repeatable?: Yes
+Blocker?: No
+Test Owner: Matthew Bellman
+
+_id: 67233afa98a07c8440728cd1
+Test #: 4
+Build #: 2024-10-08 00:00:00
+Category: Deck Tutorial
+Test Case: The srcren say to "Tap anywhere to continue" even though I'm on a workstation/laptop computer that doen't suport touch controls.
+Expected Result: For it to say "Click anywhere to continue" instead.
+Actual Result: "Tap anywhere to continue" shows up regrardless.
+Repeatable?: Yes
+Blocker?: No
+Test Owner: Matthew Bellman
+
+_id: 67233afa98a07c8440728cd2
+Test #: 5
+Build #: 2024-10-08 00:00:00
+Category: Deck Tutorial
+Test Case: When the tutorial instructs you to "Select the deck by tappign on the deck you made.", it shows up on the deck creation screen.
+Expected Result: For it to show up on the deck selection screen.
+Actual Result: It shows up on the deck creation screen. It also softlocks the game, since there is an endless loading screen.
+Repeatable?: Yes?
+Blocker?: No
+Test Owner: Matthew Bellman
+
+_id: 67233afa98a07c8440728cda
+Test #: 3
+Build #: 2024-10-08 00:00:00
+Category: Main Page
+Test Case: Latest News and Latest Update button is not working in this game.
+As a result, the latest news and updates cannot be accessed
+or displayed within the game interface.
+Expected Result: It's should be clickable
+Actual Result: But it's not clickable
+Repeatable?: yes
+Blocker?: yes
+Test Owner: Feni bodar
+
+_id: 67233afa98a07c8440728cdf
+Test #: 1
+Build #: 2024-10-08 00:00:00
+Category: Game
+Test Case: In starting a match, cards can clip through the space they are on when an animation happens
+Expected Result: Cards don't clip through
+Actual Result: Cards clip through
+Repeatable?: yes
+Blocker?: no
+Test Owner: Garrette Clarke
+
+_id: 67233afa98a07c8440728ce0
+Test #: 1
+Build #: 2024-10-08 00:00:00
+Category: Main Page
+Test Case: After doing the intro tutorial, it prompts to do the same one again but doesn't do anything even if you say yes
+Expected Result: No duplicate tutorial prompt
+Actual Result: Got duplicate prompt
+Repeatable?: yes
+Blocker?: no
+Test Owner: Garrette Clarke
+
+_id: 67233afa98a07c8440728ce2
+Test #: 1
+Build #: 2024-10-08 00:00:00
+Category: UI
+Test Case: User case: Luna blocking 'Deck Builder' button during Deck Builder tutorial
+Expected Result: Deck Builder' button clearly visible without any distractions/obstructions
+Actual Result: Luna art and text box is obstructing the highlighted 'Deck Builder' button during the Deck Builder Tutorial. Users could be detered from the design or might be frustrated if they miss the highlighted button behind Luna.
+Repeatable?: Yes
+Blocker?: No
+Test Owner: Kenneth Dam
+
+_id: 67233afa98a07c8440728ce3
+Test #: 2
+Build #: 2024-10-08 00:00:00
+Category: UI
+Test Case: User case: Locked into card detail UI during Deck Builder tutorial
+Expected Result: Able to exit the card detail UI during Deck Builder tutorial and freely scroll up and down the cards on the right side. 
+Able to freely navigate and select the cards on the right side of the UI.
+Actual Result: Locked into the card detail UI and the only way to navigate the cards was one by one using the arrows.
+Repeatable?: Yes
+Blocker?: No
+Test Owner: Kenneth Dam
+
+_id: 67233afa98a07c8440728ce4
+Test #: 1
+Build #: 2024-10-08 00:00:00
+Category: Game
+Test Case: bug: in the tutorial when adding guardians to your deck, the X button does not exit to the deck list.
+Expected Result: Pressing the X button would allow me to see the entire list of guardian characters
+Actual Result: Pressing the X button, does nothing and I am stuck to only seeing one character. Have to navigate between characters through the arrows.
+Repeatable?: yes
+Blocker?: no
+Test Owner: Kyle Deocampo
+
+_id: 67233afa98a07c8440728ce5
+Test #: 2
+Build #: 2024-10-08 00:00:00
+Category: Game
+Test Case: bug: timer isn't going down due to high latency
+Expected Result: Timer goes down to 0 to continue the game
+Actual Result: Timer is stuck at 56 seconds and cannot proceed with the game.
+Repeatable?: yes
+Blocker?: yes
+Test Owner: Kyle Deocampo
+
+_id: 67233afa98a07c8440728ce6
+Test #: 1
+Build #: 2024-10-08 00:00:00
+Category: Tutorial
+Test Case: Cannot click on deck builder after being prompted to do so
+Expected Result: I expect to be on the deck builder tab
+Actual Result: Frozen on Luna saying to head over to the deck builder
+Repeatable?: No
+Blocker?: Yes
+Test Owner: Seng Dieng
+
+_id: 67233afa98a07c8440728ce7
+Test #: 2
+Build #: 2024-10-08 00:00:00
+Category: Adventures
+Test Case: Cannot exit out of adventure
+Expected Result: Going back to main menu
+Actual Result: Frozen on the adventure page
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Seng Dieng
+
+_id: 67233afa98a07c8440728ce8
+Test #: 3
+Build #: 2024-10-08 00:00:00
+Category: Tutorial
+Test Case: Clicking arena while in deck building tutorial with no deck built
+Expected Result: Being able to press okay and leaving the arena
+Actual Result: Stuck on Luna saying creating a new deck while being on arena prompt with no deck built
+Repeatable?: nan
+Blocker?: Yes
+Test Owner: Seng Dieng
+
+_id: 67233afa98a07c8440728cef
+Test #: 1
+Build #: 2024-10-08 00:00:00
+Category: Game
+Test Case: Attempted to re-enter the tutorial, but was required to create a deck first. The avatar obstructed the screen, making it difficult to proceed without randomly tapping around to bypass it.
+Expected Result: For the deck-building option to be clearly visible and not obscured by the avatar.
+Actual Result: It worked after randomly pressing around the screen.
+Repeatable?: yes
+Blocker?: No
+Test Owner: Amgad Fahim
+
+_id: 67233afa98a07c8440728cf0
+Test #: 2
+Build #: 2024-10-08 00:00:00
+Category: Game
+Test Case: Suggested that the avatar should be repositioned to avoid blocking the interface during tutorials.
+Expected Result: The avatar should shift to a different area of the screen, allowing easy access to the buttons.
+Actual Result: nan
+Repeatable?: No
+Blocker?: Somewhat, especially for users who might be impatient.
+Test Owner: Amgad Fahim
+
+_id: 67233afa98a07c8440728cf1
+Test #: 3
+Build #: 2024-10-08 00:00:00
+Category: Game
+Test Case: While trying to attack during the tutorial, the game only allowed me to exit instead of proceeding with the attack.
+Expected Result: To successfully perform the attack.
+Actual Result: The attack did not occur.
+Repeatable?: No
+Blocker?: Yes, it prevented continuation of the tutorial.
+Test Owner: Amgad Fahim
+
+_id: 67233afa98a07c8440728cf3
+Test #: nan
+Build #: 2024-10-08 00:00:00
+Category: Main page
+Test Case: latest update and lateness new button is not working
+Expected Result: button should work
+Actual Result: button didn't work
+Repeatable?: yes
+Blocker?: yes
+Test Owner: Krunal Gadhiya
+
+_id: 67233afa98a07c8440728cf4
+Test #: nan
+Build #: 2024-10-08 00:00:00
+Category: Game background sound
+Test Case: I've tried to click the sound button but it's not working on my side
+Expected Result: I should be able to change sound settings
+Actual Result: nan
+Repeatable?: yes
+Blocker?: yes
+Test Owner: Krunal Gadhiya
+
+_id: 67233afa98a07c8440728d00
+Test #: 1
+Build #: 2024-10-08 00:00:00
+Category: Login
+Test Case: bug: infinite loading screen on connecting/scanning wallet
+Expected Result: I expected the wallet to connect after a reasonable amount of time after scanning with the metamask app on my phone (a few seconds)
+Actual Result: It became an infinite loading screen, I probably waited 5 minutes before closing and reopening the app to try again. I also reopened the enders gate website and selected the Skale option to pop up the QR code again.
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Gerard Gandionco
+
+_id: 67233afa98a07c8440728d01
+Test #: 2
+Build #: 2024-10-08 00:00:00
+Category: Main Page
+Test Case: user case: "New Player?" popup upon returning to main menu after completeing the tutorial
+Expected Result: For the popup to only appear once, that is, only before the tutorial phase.
+Actual Result: It popped up a second time
+Repeatable?: Yes
+Blocker?: No
+Test Owner: Gerard Gandionco
+
+_id: 67233afa98a07c8440728d06
+Test #: 2
+Build #: 2024-10-08 00:00:00
+Category: Game
+Test Case: user case: not enough ways to counter enemy
+Expected Result: there is more ways to counteract situations such as when you have lack of cards on deckk, to win the game.
+Actual Result: when faced with no cards on deck it seem like your only option is to save by continuously surrendering rounds to draw single cards at a time
+Repeatable?: yes
+Blocker?: no
+Test Owner: Sergio Garcia
+
+_id: 67233afa98a07c8440728d0b
+Test #: 1
+Build #: 2024-10-08 00:00:00
+Category: UI
+Test Case: Settings: Adjusting the volume you cant hear the difference you changed it to until you save.
+Expected Result: Hear the difference as you raise or lower
+Actual Result: Volume stays the same until saved
+Repeatable?: yes
+Blocker?: no
+Test Owner: Mauricio Gonzalez
+
+_id: 67233afa98a07c8440728d0c
+Test #: 2
+Build #: 2024-10-08 00:00:00
+Category: UI
+Test Case: When exiting the edit profile menu, screen goes black instead of a transition back to main menu
+Expected Result: Transition to main menu with a cutscene and music still playing
+Actual Result: Screen goes black and volume mutes
+Repeatable?: yes
+Blocker?: no
+Test Owner: Mauricio Gonzalez
+
+_id: 67233afa98a07c8440728d0d
+Test #: 3
+Build #: 2024-10-08 00:00:00
+Category: Main Page
+Test Case: Latest news and latest update doesn't lead to anything
+Expected Result: Pop up of information
+Actual Result: Nothing happens
+Repeatable?: yes
+Blocker?: no
+Test Owner: Mauricio Gonzalez
+
+_id: 67233afa98a07c8440728d14
+Test #: 2
+Build #: 2024-10-08 00:00:00
+Category: Adventure Option
+Test Case: Bug: Buttons on "Adventure" are not working
+Expected Result: After clicking on"Adventure" and checking, being able to go back to Main Page or click on other buttons on "Adventure"  
+Actual Result: Freeze or Stuck on "Adventure" Page and unable to click on other buttons like "Deck Builder" at the left bottom, unable to click on "Back", "Home" and other buttons
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Kaung Khant
+
+_id: 67233afa98a07c8440728d18
+Test #: 1
+Build #: 2024-10-08 00:00:00
+Category: UI
+Test Case: Bug: Phase Change UI freezes tutorial
+Expected Result: Follow tutorial steps and have freedom to press buttons on the board in between steps.
+Actual Result: Tutorial prompts to change phase. If you click it once MORE before the next tutorial step, the UI will freeze.
+Repeatable?: yes
+Blocker?: Yes
+Test Owner: Greg Khrom
+
+_id: 67233afa98a07c8440728d19
+Test #: 2
+Build #: 2024-10-08 00:00:00
+Category: Game
+Test Case: User Case: Can't drag guardians onto field
+Expected Result: Ability to click and drag guardian card from hand onto available/valid positions on the board/field.
+Actual Result: Cannot click and drag for simplicity. Must click once to select card, click again to choose hire, and click again to select position.
+Repeatable?: yes
+Blocker?: No
+Test Owner: Greg Khrom
+
+_id: 67233afa98a07c8440728d25
+Test #: 1
+Build #: 2024-10-08 00:00:00
+Category: Deck Builder Tutorial
+Test Case: Once you add 20 Gaurdians any more gaurdians added cannot be removed, so if you fill your 30 alloted slotes with just gaurdians you wont be able to remove them to add reaction and action cards to complete the tutorial
+Expected Result: Remove button to work if you have more than 20 gaurdians, but be blocked if you have 20 gaurdians
+Actual Result: Had 26 Gaurdians and Couldn't remove them to finsih the task
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Tigran Manukyan
+
+_id: 67233afa98a07c8440728d26
+Test #: 2
+Build #: 2024-10-08 00:00:00
+Category: Tutorial/Deck Builder Tutorial
+Test Case: Suggestion: a way of skipping a part of the tuturial in case someone gets stuck, they donÕt have to quit the game
+Expected Result: Stuck on tutorial, had to restart
+Actual Result: nan
+Repeatable?: nan
+Blocker?: No
+Test Owner: Tigran Manukyan
+
+_id: 67233afa98a07c8440728d27
+Test #: 3
+Build #: 2024-10-08 00:00:00
+Category: Arena
+Test Case: After the opponents health drops down to a certain level their hp points are not visible.
+Expected Result: HP points to be a different color
+Actual Result: Could not see HP points
+Repeatable?: Yes
+Blocker?: No
+Test Owner: Tigran Manukyan
+
+_id: 67233afa98a07c8440728d28
+Test #: 4
+Build #: 2024-10-08 00:00:00
+Category: Arena
+Test Case: Suggestion: After a battle is done, when clicking return a pop up shows up, saying are you sure you want to leave this room? Makes the user feel like their quiting the game, when in fact it is over, maybe have it say something else?
+Expected Result: nan
+Actual Result: nan
+Repeatable?: nan
+Blocker?: No
+Test Owner: Tigran Manukyan
+
+_id: 67233afa98a07c8440728d29
+Test #: 5
+Build #: 2024-10-08 00:00:00
+Category: Edit Profile
+Test Case: Name Change does not appear Arena even after restarting the game, appears in main screan but not Arena
+Expected Result: New name to apear while in Arena
+Actual Result: Old name (default name) appears
+Repeatable?: Yes
+Blocker?: No
+Test Owner: Tigran Manukyan
+
+_id: 67233afa98a07c8440728d2a
+Test #: 6
+Build #: 2024-10-08 00:00:00
+Category: Home Page/Settings
+Test Case: There is an (X) button in the settings but it does nothing
+Expected Result: Close the settings without saving
+Actual Result: Nothing
+Repeatable?: Yes
+Blocker?: No
+Test Owner: Tigran Manukyan
+
+_id: 67233afa98a07c8440728d2b
+Test #: 1
+Build #: 2024-10-08 00:00:00
+Category: game
+Test Case: user experiance: game UI's are very slowy due to lag hard to play through the tutorial.
+Expected Result: expected it to be smooth and responsive
+Actual Result: animations are slow, takes about 3-5 sec for animation to finish, latency was consistant around 1000ms , highest ut went was 3788ms
+Repeatable?: yes
+Blocker?: yes and no. the latency is so high that it feels like it freezes but it just takes a while.
+Test Owner: derick maradiaga
+
+_id: 67233afa98a07c8440728d2c
+Test #: 2
+Build #: 2024-10-08 00:00:00
+Category: UI
+Test Case: user case : in the tutorial UI is blocking other UI
+Expected Result: expected to be able to see the gold from the bottem left when the character helping us is on screen
+Actual Result: character is blocking half of the bar the gold is contained in. Can only see two numbers out of the 4 numbers. Her legs are blocking it.
+Repeatable?: yes
+Blocker?: no
+Test Owner: derick maradiaga
+
+_id: 67233afa98a07c8440728d2d
+Test #: 3
+Build #: 2024-10-08 00:00:00
+Category: Main page UI
+Test Case: user case: in Main page ui is blocking other ui during the new palyer tutorial/deck builder tutorial
+Expected Result: expected to see the navagation UI and which button to click
+Actual Result: the luna character is blocking the nav bar , she is standing right in front of the button we are suppose to click
+Repeatable?: yes
+Blocker?: no
+Test Owner: derick maradiaga
+
+_id: 67233afa98a07c8440728d2e
+Test #: 4
+Build #: 2024-10-08 00:00:00
+Category: UI
+Test Case: user case: in the build yor deck tutorial UI size too big for prompting to filter to free play cards
+Expected Result: an arrow or anything that’s proper scaling and direct, displaying where I have to go and click.
+Actual Result: a big over sized retangular box highlitighing the whole card selection scroll section not knowing where to click without reading the directions
+Repeatable?: yes
+Blocker?: no
+Test Owner: derick maradiaga
+
+_id: 67233afa98a07c8440728d2f
+Test #: 5
+Build #: 2024-10-08 00:00:00
+Category: Ui
+Test Case: user case: in the build yor deck tutorial, the filtering of the cards nav bar
+Expected Result: expected visual confirmations in the filtering card section, such as when hovering over the text to let me know I am on 
+it by changing color or pop it up , more style detail
+Actual Result: drop down with not way of knowing if Im hovering over the text or if will do anthing, just moving the check mark after clicking. didn't know if clicking would do something because it lacks visual confirmation
+Repeatable?: yes
+Blocker?: no
+Test Owner: derick maradiaga
+
+_id: 67233afa98a07c8440728d30
+Test #: 6
+Build #: 2024-10-08 00:00:00
+Category: game
+Test Case: bug: doesn't let me click the X button in the build your deck tutorial on the step when needed to add atleast 20 guradians    
+Expected Result: expected to let me click the X button so I can just scroll throught the free to play cars and look at specific ones to add
+Actual Result: stuck on the details screen for the cards having to click on the arrows to see the next card one at a time, wasting time for me to get to the end of the cards. not allowing me to quickly got to a specific card I think looks interesting
+Repeatable?: yes
+Blocker?: yes
+Test Owner: derick maradiaga
+
+_id: 67233afa98a07c8440728d31
+Test #: 7
+Build #: 2024-10-08 00:00:00
+Category: Ui
+Test Case: user case: naming your deck
+Expected Result: expected to have a confirm/submit button for when I am done with naming my deck
+Actual Result: after typing the name of my deck ther was no UI like a button that I could press to save the name of the deck not even the tutorial character said anything on how to save. Finally fiugred to just press enter.
+Repeatable?: yes
+Blocker?: yes
+Test Owner: derick maradiaga
+
+_id: 67233afa98a07c8440728d32
+Test #: 8
+Build #: 2024-10-08 00:00:00
+Category: UI
+Test Case: user case: text in answer click of deck use
+Expected Result: expected text to say yes or cancel
+Actual Result: the text box says ok, felt like the game was talking to me , like it asked a question and the anwser box is it respones to me saying yes
+Repeatable?: yes
+Blocker?: no
+Test Owner: derick maradiaga
+
+_id: 67233afa98a07c8440728d33
+Test #: 9
+Build #: 2024-10-08 00:00:00
+Category: UI
+Test Case: User case: the latency units
+Expected Result: expected to know what units my latency is in. ms,sec, microsec.
+Actual Result: latency with a number not know what unit its in.
+Repeatable?: yes
+Blocker?: no
+Test Owner: derick maradiaga
+
+_id: 67233afa98a07c8440728d34
+Test #: 10
+Build #: 2024-10-08 00:00:00
+Category: game
+Test Case: bug: in the leaderboard name lookup the X icon and text being saved after exiting the leaderboard and re-entering
+Expected Result: when typing in the username lookup, when the X icon is clicked should expect for the text to be deleted. Also when extiting ut of the leaderboard and re-enter expected the data typed would be cleared/not saved
+Actual Result: when typing any character and going to clear it with the x icon. when I clicked on it nothing happened. Doesn't clear text. Furthermore when extiting out of the leaderboard and re-enter e the data typed would be saved
+Repeatable?: yes
+Blocker?: no
+Test Owner: derick maradiaga
+
+_id: 67233afa98a07c8440728d37
+Test #: 0
+Build #: 2024-10-08 00:00:00
+Category: Login/UI/Game/Main Page/Adventure
+Test Case: clicking on the home button doesn't take you back home, back arrow does nothing too
+Expected Result: go back to home page
+Actual Result: nothing, still stuck on adventure page
+Repeatable?: yes/no
+Blocker?: Yes/no
+Test Owner: divy mente
+
+_id: 67233afa98a07c8440728d38
+Test #: 1
+Build #: 2024-10-08 00:00:00
+Category: Login/UI/Game/Main Page/Arena/Settings
+Test Case: clicking on camera setting doesn't work
+Expected Result: change camera setting
+Actual Result: camera setting stays in default
+Repeatable?: yes
+Blocker?: yes
+Test Owner: divy mente
+
+_id: 67233afa98a07c8440728d3d
+Test #: 5
+Build #: 2024-10-08 00:00:00
+Category: Main Page
+Test Case: After selected a deck and selecting 'Edit'
+and after removing a card I was unble to
+new cards untill I exited and came back.
+Expected Result: Being able to add cards to my
+deck.
+Actual Result: Was unable to add any
+cards.
+Repeatable?: yes
+Blocker?: no
+Test Owner: Michael Metcalf
+
+_id: 67233afa98a07c8440728d46
+Test #: 1
+Build #: 2024-10-08 00:00:00
+Category: DeckBuilder/UI
+Test Case: bug: Adding duplicate cards and removing only one bugs the deck builder window
+Expected Result: Removing a duplicate should not affect the deck builder window
+Actual Result: After removing a dupilcate card, the deck builder window doesn't show up. Remove duplicate to fix bug
+Repeatable?: yes
+Blocker?: no
+Test Owner: Denise Pacheco
+
+_id: 67233afa98a07c8440728d47
+Test #: 2
+Build #: 2024-10-08 00:00:00
+Category: DeckBuilder/UI
+Test Case: bug: "How to Obtain" button does nothing
+Expected Result: Clicking on button show give a description on how to obatin card
+Actual Result: Does nothing
+Repeatable?: yes
+Blocker?: no
+Test Owner: Denise Pacheco
+
+_id: 67233afa98a07c8440728d48
+Test #: 3
+Build #: 2024-10-08 00:00:00
+Category: DeckBuilder/UI
+Test Case: bug: "Related Cards" button does nothing
+Expected Result: Clicking button finds related cards
+Actual Result: Does nothing
+Repeatable?: yes
+Blocker?: no
+Test Owner: Denise Pacheco
+
+_id: 67233afa98a07c8440728d5d
+Test #: nan
+Build #: 2024-10-08 00:00:00
+Category: Game
+Test Case: Tried to draw a card
+Expected Result: Should be able to draw card in draw phase
+Actual Result: could not draw one
+Repeatable?: no
+Blocker?: yes
+Test Owner: AB
+
+_id: 67233afa98a07c8440728d5e
+Test #: nan
+Build #: 2024-10-08 00:00:00
+Category: Game
+Test Case: Tried to edit sound settings in settings during game
+Expected Result: Sound should reflect settings adjustment
+Actual Result: Sounds did not change one bit
+Repeatable?: yes
+Blocker?: no
+Test Owner: AB
+
+_id: 67233afa98a07c8440728d5f
+Test #: nan
+Build #: 2024-10-08 00:00:00
+Category: Game
+Test Case: Going to main phase during arena
+Expected Result: Should go to main phase
+Actual Result: I couldn't transition any phase
+Repeatable?: yes
+Blocker?: yes
+Test Owner: AB
+
+_id: 67233afa98a07c8440728d60
+Test #: nan
+Build #: 2024-10-08 00:00:00
+Category: Game
+Test Case: Tried to play a game
+Expected Result: should play the video game
+Actual Result: straights up loops phases. This was after a series of not being able to play arena. Refreshing fixzed it
+Repeatable?: yes
+Blocker?: yes
+Test Owner: AB
+
+_id: 67233afa98a07c8440728d61
+Test #: nan
+Build #: 2024-10-08 00:00:00
+Category: Game
+Test Case: I went to arena to match with a player
+Expected Result: I should match a player
+Actual Result: In my 40 games, there has only been AI Player 1. Not even 2 or more.
+Repeatable?: yes
+Blocker?: no
+Test Owner: AB
+
+_id: 67233afa98a07c8440728d69
+Test #: 1
+Build #: 2024-10-08 00:00:00
+Category: UI\First Gameplay Tutorial
+Test Case: UI interaction following tutorial prompts non responsive or no clear indication of response
+Expected Result: When pressing activate card the tutorial plays the card
+Actual Result: Game seemed to require multiple clicks to register desire to play card.
+Repeatable?: yes
+Blocker?: Yes
+Test Owner: Joshua Planovsky
+
+_id: 67233afa98a07c8440728d6a
+Test #: 2
+Build #: 2024-10-08 00:00:00
+Category: UI\Deckbuilding Tutorial
+Test Case: Visual highlight element not aligned with add button
+Expected Result: Highlight element should be properly aligned with the button.
+Actual Result: Button and highlight element not aligned.
+Repeatable?: yes
+Blocker?: no
+Test Owner: Joshua Planovsky
+
+_id: 67233afa98a07c8440728d6b
+Test #: 3
+Build #: 2024-10-08 00:00:00
+Category: UI\Deckbuilding Tutorial
+Test Case: Visual highlight element not aligned with deck name element.
+Expected Result: Highlight element should be properly aligned with the deck name slot.
+Actual Result: Field and highlight element poorly aligned
+Repeatable?: yes
+Blocker?: no
+Test Owner: Joshua Planovsky
+
+_id: 67233afa98a07c8440728d6c
+Test #: 4
+Build #: 2024-10-08 00:00:00
+Category: Gameplay\UI
+Test Case: Attack values do not visually update based on character effects
+Expected Result: Goblin attack values visually increase based on the number of goblins on the field
+Actual Result: Attack values visually stay the same which may affect tactics
+Repeatable?: yes
+Blocker?: no
+Test Owner: Joshua Planovsky
+
+_id: 67233afa98a07c8440728d7a
+Test #: 1
+Build #: 2024-10-08 00:00:00
+Category: UI
+Test Case: Cards are difficult to read in both your hand as well as the zoom-in on the right.
+Expected Result: nan
+Actual Result: nan
+Repeatable?: nan
+Blocker?: nan
+Test Owner: Robert Stevenson
+
+_id: 67233afa98a07c8440728d7b
+Test #: 2
+Build #: 2024-10-08 00:00:00
+Category: UI
+Test Case: When accepting deck builder tutorial, Luna covers the button to go to the deck builder and makes it hard to see.
+Expected Result: nan
+Actual Result: nan
+Repeatable?: nan
+Blocker?: nan
+Test Owner: Robert Stevenson
+
+_id: 67233afa98a07c8440728d7c
+Test #: 3
+Build #: 2024-10-08 00:00:00
+Category: Main Page
+Test Case: Buttons to go back from Adventure and go home do not work in Adventure
+Expected Result: To go back to home page
+Actual Result: Stuck in adventure
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Robert Stevenson
+
+_id: 67233afa98a07c8440728d7d
+Test #: 4
+Build #: 2024-10-08 00:00:00
+Category: UI
+Test Case: Name change doesn't apply
+Expected Result: Name change to apply to UI when in arena
+Actual Result: Name is still default one
+Repeatable?: Yes
+Blocker?: No
+Test Owner: Robert Stevenson
+
+_id: 67233afa98a07c8440728d7f
+Test #: 6
+Build #: 2024-10-08 00:00:00
+Category: UI
+Test Case: Starting animation that plays when starting a match texture is broken.
+Expected Result: Texture not broken
+Actual Result: Texture has holes and
+Repeatable?: Yes
+Blocker?: No
+Test Owner: Robert Stevenson
+
+_id: 67233afa98a07c8440728d80
+Test #: 7
+Build #: 2024-10-08 00:00:00
+Category: Text Chat
+Test Case: Copying and pasting a million words locks freezes the game. Copy/Paste Used: https://www.damienelliott.com/1-million-words-ready-to-copy-and-paste-lorem-ipsum/
+Expected Result: To not allow large amount of text
+Actual Result: Allows and freezes
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Robert Stevenson
+
+_id: 67233afa98a07c8440728d81
+Test #: 8
+Build #: 2024-10-08 00:00:00
+Category: Main Page
+Test Case: X button in settings does not work
+Expected Result: Exit Settings page
+Actual Result: Settings page stays open
+Repeatable?: Yes
+Blocker?: No
+Test Owner: Robert Stevenson
+
+_id: 67233afa98a07c8440728d82
+Test #: 9
+Build #: 2024-10-08 00:00:00
+Category: Main Page
+Test Case: X button in text area of friend tab does not work
+Expected Result: Clear text in text area
+Actual Result: Text remains
+Repeatable?: Yes
+Blocker?: No
+Test Owner: Robert Stevenson
+
+_id: 67233afa98a07c8440728d83
+Test #: 10
+Build #: 2024-10-08 00:00:00
+Category: Main Page
+Test Case: Copy & Paste million words into text area of friends tab freezes game
+Expected Result: Character Limit
+Actual Result: Pastes and freezes
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Robert Stevenson
+
+_id: 67233afa98a07c8440728d84
+Test #: 11
+Build #: 2024-10-08 00:00:00
+Category: UI
+Test Case: Deck size number seems blurry
+Expected Result: nan
+Actual Result: nan
+Repeatable?: nan
+Blocker?: nan
+Test Owner: Robert Stevenson
+
+_id: 67233afa98a07c8440728d85
+Test #: 12
+Build #: 2024-10-08 00:00:00
+Category: Gameplay
+Test Case: Champion has death effect to deal damage
+Expected Result: Game should pause until it is resolved as it benefits whoever is faster ex: They destroyed one of my champions before I 
+could destroy that card with death effect.
+Actual Result: They can continue their turn while death effect is still being chosen.
+Repeatable?: nan
+Blocker?: nan
+Test Owner: Robert Stevenson
+
+_id: 67233afa98a07c8440728d86
+Test #: 13
+Build #: 2024-10-08 00:00:00
+Category: Gameplay
+Test Case: Card history during match does not say what card was placed.
+Expected Result: Could be more descriptive to follow what happends in hectic moments
+Actual Result: nan
+Repeatable?: nan
+Blocker?: nan
+Test Owner: Robert Stevenson
+
+_id: 67233afa98a07c8440728d87
+Test #: 14
+Build #: 2024-10-08 00:00:00
+Category: UI
+Test Case: Hard to see health amount when bar reduced past the number
+Expected Result: nan
+Actual Result: nan
+Repeatable?: nan
+Blocker?: nan
+Test Owner: Robert Stevenson
+
+_id: 67233afa98a07c8440728d88
+Test #: 1
+Build #: 2024-10-08 00:00:00
+Category: Login
+Test Case: Searching for Wallet doesn't actually search
+Expected Result: Search the wallet by keyword
+Actual Result: Nothing happened
+Repeatable?: Yes
+Blocker?: No
+Test Owner: Shawn Takhirov
+
+_id: 67233afa98a07c8440728d89
+Test #: 2
+Build #: 2024-10-08 00:00:00
+Category: Main Page
+Test Case: Tutorial text overlays with menu options
+Expected Result: To have tutorial text on the right
+Actual Result: Text on the left overlaying
+Repeatable?: No
+Blocker?: No
+Test Owner: Shawn Takhirov
+
+_id: 67233afa98a07c8440728d8a
+Test #: 3
+Build #: 2024-10-08 00:00:00
+Category: Game
+Test Case: Opened tutorial but there was no tutorial
+Expected Result: For a tutorial to start
+Actual Result: There was no tutorial
+Repeatable?: Yes
+Blocker?: No
+Test Owner: Shawn Takhirov
+
+_id: 67233afa98a07c8440728d8b
+Test #: 4
+Build #: 2024-10-08 00:00:00
+Category: Game
+Test Case: Skips tutorial if you exit browser first time
+Expected Result: For a tutorial to restart
+Actual Result: Cannot restart initial tutorial
+Repeatable?: Yes
+Blocker?: No
+Test Owner: Shawn Takhirov
+
+_id: 67233afa98a07c8440728d98
+Test #: 1
+Build #: 2024-10-08 00:00:00
+Category: Game
+Test Case: does not let you attack in the tutorial
+Expected Result: I was suppose to attack the oppenents card
+Actual Result: I clicked the oppenents card to attack and nothing happened
+Repeatable?: Yes
+Blocker?: No
+Test Owner: Nathan Wahba
+
+_id: 67233afa98a07c8440728d99
+Test #: 2
+Build #: 2024-10-08 00:00:00
+Category: Game
+Test Case: cant save changes for settings in game
+Expected Result: I want to lower the volume when I'm playing the game but it wont save
+Actual Result: I move the slider for the volume but nothing happens
+Repeatable?: Yes
+Blocker?: No
+Test Owner: Nathan Wahba
+
+Total build rows found with '10' and '8': 90
+Number of duplicates found: 5
+
+PS C:\Users\garci> 

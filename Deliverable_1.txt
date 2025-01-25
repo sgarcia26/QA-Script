@@ -1,0 +1,1026 @@
+####################################################################################################################
+# Sergio Garcia
+# 10/31/2024
+# COMP 467
+# Project 2 - The Reckoning
+# Deliverable 2
+# 3. Database Answers (From "Database Calls" and done programmatically i.e python)
+# 	2. All repeatable bugs- from both collections(No duplicates)
+####################################################################################################################
+PS C:\Users\garci> & C:/Users/garci/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/garci/ProTest2/Project2_SG.py
+python "C:\Users\garci\ProTest2\Project2_SG.py" --repeatable_yes
+
+# The terminal doesnt allow me to go up to the beginning so it cuts off 
+...
+...
+Expected Result: Maybe adding where even clicking anywhere else on the screen hides the settings again
+Actual Result: Buttons need to be clicked on again to hide the display
+Repeatable?: yes
+Blocker?: no
+Test Owner: Mauricio Gonzalez
+
+_id: 67233afa98a07c8440728e0a
+Test #: 7
+Build #: ########
+Category: Game
+Test Case: game improvements: If you win an arena match without losing any cards, add a special winning screen
+Expected Result: Victory screen can something like TOTAL OBLITERATION!!
+Actual Result: Regular victory screen
+Repeatable?: yes
+Blocker?: no
+Test Owner: Mauricio Gonzalez
+
+_id: 67233afa98a07c8440728e0b
+Test #: 1
+Build #: ########
+Category: Game
+Test Case: The Game does not clearly indicate the player turns end/change
+Expected Result: Next round/rond over signs
+Actual Result: Nothing
+Repeatable?: yes
+Blocker?: no
+Test Owner: Miguel Hernandez
+
+_id: 67233afa98a07c8440728e0c
+Test #: 2
+Build #: ########
+Category: Game
+Test Case: When I hover on the turns button, the game changes turns?? it's confusing
+Expected Result: A hover text telling the user what is going on
+Actual Result: Nothing
+Repeatable?: Yes
+Blocker?: no
+Test Owner: Miguel Hernandez
+
+_id: 67233afa98a07c8440728e0d
+Test #: 3
+Build #: ########
+Category: Game
+Test Case: The Game is kind of confusing for first time players. players that have never experienced this type of games
+Expected Result: Help button or assistance
+Actual Result: Nothing
+Repeatable?: yes
+Blocker?: no
+Test Owner: Miguel Hernandez
+
+_id: 67233afa98a07c8440728e0e
+Test #: 1
+Build #: ########
+Category: UX
+Test Case: Game runs heavy
+Expected Result: be less resource intensive
+Actual Result: fans going crazy
+Repeatable?: yes
+Blocker?: no
+Test Owner: Nver Khachoyan
+
+_id: 67233afa98a07c8440728e0f
+Test #: 2
+Build #: ########
+Category: UI
+Test Case: Text on cards barely readable
+Expected Result: be able to read text on card
+Actual Result: not able to read card txt
+Repeatable?: yes
+Blocker?: no
+Test Owner: Nver Khachoyan
+
+_id: 67233afa98a07c8440728e10
+Test #: 3
+Build #: ########
+Category: Game
+Test Case: Deck building takes a lot of time
+Expected Result: Have a prebuilt deck
+Actual Result: gotta build manually
+Repeatable?: yes
+Blocker?: no
+Test Owner: Nver Khachoyan
+
+_id: 67233afa98a07c8440728e12
+Test #: 2
+Build #: ########
+Category: Game
+Test Case: Enhancement request: allow users to change in-game audio using in-game Setting "Audio", lowering or increasing volume
+Expected Result: Experience audio changes using in-game setting "Audio"
+Actual Result: The audio volume does not change and it remains the same as before
+Repeatable?: Yes
+Blocker?: No
+Test Owner: Kaung Khant
+
+_id: 67233afa98a07c8440728e14
+Test #: 1
+Build #: 14/10/24
+Category: GAME
+Test Case: Sensitivity
+Expected Result: It should be normal so that player can control it
+Actual Result: There is too fast sentitivity movement in scrolling,movement
+Repeatable?: YES
+Blocker?: NO
+Test Owner: Naitik Kheni
+
+_id: 67233afa98a07c8440728e16
+Test #: 3
+Build #: 14/10/24
+Category: GAME
+Test Case: Gameplay
+Expected Result: Reserved cards quantity should be same
+Actual Result: AI have automatically grow their reserved cards without draw a card when it have 0
+Repeatable?: YES
+Blocker?: NO
+Test Owner: Naitik Kheni
+
+_id: 67233afa98a07c8440728e18
+Test #: 1
+Build #: ########
+Category: Game
+Test Case: Dragging to attack doesn't attack
+Expected Result: My hired unit to lift and attack the selected enemy
+Actual Result: I need to drag to the enemy and then click again for it to register
+Repeatable?: yes
+Blocker?: no
+Test Owner: Greg Khrom
+
+_id: 67233afa98a07c8440728e19
+Test #: 2
+Build #: ########
+Category: UI
+Test Case: Win/Losses count doesn't update
+Expected Result: My win/losses count updating after playing an arena match
+Actual Result: Win/Losses still shows 0 / 0
+Repeatable?: yes
+Blocker?: no
+Test Owner: Greg Khrom
+
+_id: 67233afa98a07c8440728e1a
+Test #: 3
+Build #: ########
+Category: UI
+Test Case: Ultraman popup too frequent
+Expected Result: A checkbox for "Do not show again today"
+Actual Result: I have to x out of the window every time I visit the main menu
+Repeatable?: yes
+Blocker?: no
+Test Owner: Greg Khrom
+
+_id: 67233afa98a07c8440728e1b
+Test #: 4
+Build #: ########
+Category: UI
+Test Case: Player colors are unclear
+Expected Result: Player field color matches Turn Phase banner color
+Actual Result: Player field color is blue, but Turn Phase banners are Red
+Repeatable?: yes
+Blocker?: no
+Test Owner: Greg Khrom
+
+_id: 67233afa98a07c8440728e1c
+Test #: 1
+Build #: ########
+Category: Login
+Test Case: Open the game and select MetaMask to login, then click on Skale
+Expected Result: The website gives you a notification that a signature request is sent to your wallet
+Actual Result: Nothing happens
+Repeatable?: yes
+Blocker?: no
+Test Owner: Maxwell Kozlov
+
+_id: 67233afa98a07c8440728e1d
+Test #: 2
+Build #: ########
+Category: Introduction
+Test Case: Open the game and log in using a new account. Follow the tutorial until you are at the menu and you are prompted to click on buttons
+Expected Result: Highlighted area showing you where to click matches button size
+Actual Result: Highlighted area is off center and too big, hard to understand where to click
+Repeatable?: yes
+Blocker?: no
+Test Owner: Maxwell Kozlov
+
+_id: 67233afa98a07c8440728e1f
+Test #: 1
+Build #: ########
+Category: Game
+Test Case: User case: No pausing against AI. I was
+distracted by a mosquito and wasted
+a chunk of my time during my turn.
+Expected Result: When I press P, the game
+pauses
+Actual Result: No pause
+Repeatable?: Yes
+Blocker?: No
+Test Owner: Samuel Lee
+
+_id: 67233afa98a07c8440728e20
+Test #: 2
+Build #: ########
+Category: Main Page
+Test Case: Bug: The "X" icon on settings doesn't
+work. I had to press cancel/save to exit
+out of settings
+Expected Result: Exit settings
+Actual Result: No function
+Repeatable?: Yes
+Blocker?: No
+Test Owner: Samuel Lee
+
+_id: 67233afa98a07c8440728e22
+Test #: 0
+Build #: ########
+Category: Arena\Battle Phase
+Test Case: During an animation during battling, if you select an attacker, sometimes the attacker is selected, but it does not let you attack any character even after the animation has ended. You have to unselect the character by clicking on another character, then reselect for it to work
+Expected Result: Either does not let you select while animation is playing, or lets you attack with selected attacker.
+Actual Result: Could not attack with selected attacker
+Repeatable?: Yes
+Blocker?: No
+Test Owner: Tigran Manukyan
+
+_id: 67233afa98a07c8440728e25
+Test #: 3
+Build #: ########
+Category: Arena\Main Phase
+Test Case: For starting second. During th3 opponen's main phase, the option to hire a gaurdian is available. If clicked it bugs out and it automaticly skips your turn every time, automatically draws cards for you then skips the rest of your turn. The attaking AI does not battle, but still hires charecters, and lets the time run out.
+Expected Result: Does not let you hire charecter when its not your turn
+Actual Result: The game automatilly skips your turn for every future round.
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Tigran Manukyan
+
+_id: 67233afa98a07c8440728e26
+Test #: 4
+Build #: ########
+Category: Arena\Main Phase
+Test Case: After clicking on an already purchached gaurdian if a essense card is also clicked to "flip" the UI's for both overlap, one should close before the other opens
+Expected Result: One of the UI's closes before the other is opend
+Actual Result: Both UI's overlapping each other.
+Repeatable?: Yes
+Blocker?: No
+Test Owner: Tigran Manukyan
+
+_id: 67233afa98a07c8440728e28
+Test #: 6
+Build #: ########
+Category: Arena\Battle Phase
+Test Case: For all battles phases, the botton always says "Turn 5 Battle" no matter which turn it is.
+Expected Result: It says the the correct turn number
+Actual Result: Wrong turn number is desplayed
+Repeatable?: Yes
+Blocker?: No
+Test Owner: Tigran Manukyan
+
+_id: 67233afa98a07c8440728e29
+Test #: 1
+Build #: ########
+Category: game/ui
+Test Case: bug: settings exit button
+Expected Result: exit the settings when clicking the X button
+Actual Result: clicking the X button didn’t close the settings ui
+Repeatable?: yes
+Blocker?: Yes
+Test Owner: derick maradiaga
+
+_id: 67233afa98a07c8440728e2a
+Test #: 2
+Build #: ########
+Category: UI
+Test Case: bug: free to play cards description details "Bert & Kurt"
+Expected Result: for there to be a & in the title name in the headers. And the title of the passive above the passive detail.
+Actual Result: no & in the header for the name of the card and the passive name is missing in the details
+Repeatable?: yes
+Blocker?: no
+Test Owner: derick maradiaga
+
+_id: 67233afa98a07c8440728e2b
+Test #: 3
+Build #: ########
+Category: UI
+Test Case: bug: free to play cards description details "Blaze Bane"
+Expected Result: the title of the passive above the passive detail.
+Actual Result: the passive name is missing in the details
+Repeatable?: yes
+Blocker?: no
+Test Owner: derick maradiaga
+
+_id: 67233afa98a07c8440728e2c
+Test #: 4
+Build #: ########
+Category: UI
+Test Case: bug: free to play cards description details "Fire Starter Jane"
+Expected Result: the right class/role to be displayed in the details "mage". the title of the passive above the passive detail.
+Actual Result: class/role name is a "fighter". the passive name is missing in the details
+Repeatable?: yes
+Blocker?: no
+Test Owner: derick maradiaga
+
+_id: 67233afa98a07c8440728e2d
+Test #: 5
+Build #: ########
+Category: UI
+Test Case: bug: free to play cards description details "Vrats"
+Expected Result: the right class/role to be displayed in the details "Support". the title of the passive above the passive detail.       
+Actual Result: class/role name is a "Mage". the passive name is missing in the details
+Repeatable?: yes
+Blocker?: no
+Test Owner: derick maradiaga
+
+_id: 67233afa98a07c8440728e2e
+Test #: 6
+Build #: ########
+Category: UI
+Test Case: bug: free to play cards description details "Jumba"
+Expected Result: the title of the Activate above the Activate detail.
+Actual Result: the Activate name is missing in the details
+Repeatable?: yes
+Blocker?: no
+Test Owner: derick maradiaga
+
+_id: 67233afa98a07c8440728e2f
+Test #: 7
+Build #: ########
+Category: UI
+Test Case: bug: free to play cards description details "Beta Wolf Tax"
+Expected Result: the title of the passive above the Passive detail.
+Actual Result: the passive name is missing in the details
+Repeatable?: yes
+Blocker?: no
+Test Owner: derick maradiaga
+
+_id: 67233afa98a07c8440728e30
+Test #: nan
+Build #: ########
+Category: UI
+Test Case: UI seemes to be glitching
+Expected Result: No glitching happening and game to run smoothly
+Actual Result: Glitching continued not exactly sure why
+Repeatable?: Yes
+Blocker?: No
+Test Owner: Yareli Martinez
+
+_id: 67233afa98a07c8440728e31
+Test #: nan
+Build #: ########
+Category: Main Page
+Test Case: Features could be more public eye appealing
+Expected Result: Expect less wording in the main page
+Actual Result: Too many words
+Repeatable?: Yes
+Blocker?: No
+Test Owner: Yareli Martinez
+
+_id: 67233afa98a07c8440728e32
+Test #: nan
+Build #: ########
+Category: Login
+Test Case: It's a bit hard to access the main page
+Expected Result: Automatically take me to the game
+Actual Result: Asks us to connect to Metamask
+Repeatable?: Yes
+Blocker?: No
+Test Owner: Yareli Martinez
+
+_id: 67233afa98a07c8440728e35
+Test #: 2
+Build #: ########
+Category: nan
+Test Case: leaderboard has bug
+Expected Result: positive numbers
+Actual Result: shows a negative number on ranking
+Repeatable?: yes
+Blocker?: yes
+Test Owner: divy mente
+
+_id: 67233afa98a07c8440728e36
+Test #: 1
+Build #: ########
+Category: Game
+Test Case: When receiving gold, it covers how much I initially have
+Expected Result: For my money bank to be updated quickly, and not cover half of the bank box
+Actual Result: It covers how much I initially have and was non stopping adding small amounts of gold
+Repeatable?: Yes
+Blocker?: No
+Test Owner: Angel Merchant
+
+_id: 67233afa98a07c8440728e37
+Test #: 2
+Build #: ########
+Category: UI
+Test Case: When health is low, I can’t see how much I have left
+Expected Result: Have a background behind health box so it wont be hard to see
+Actual Result: When my health was low, it was transparent to the background of the game. However since its a dark setting, it basically disappears the color text of the health count
+Repeatable?: Yes
+Blocker?: No
+Test Owner: Angel Merchant
+
+_id: 67233afa98a07c8440728e38
+Test #: 3
+Build #: ########
+Category: UI
+Test Case: History Log
+Expected Result: Scroll smoothy to read history of attacks
+Actual Result: When I scroll a little too hard, it moves the box quickly and sometimes the log disappears until I scroll back slowly.    
+Repeatable?: Yes
+Blocker?: No
+Test Owner: Angel Merchant
+
+_id: 67233afa98a07c8440728e3e
+Test #: 2
+Build #: ########
+Category: Game
+Test Case: settings menu doesnt close when clicking the top right x ui
+Expected Result: close settings menu
+Actual Result: setting menu doesnt close
+Repeatable?: yes
+Blocker?: no
+Test Owner: Christopher Morales
+
+_id: 67233afa98a07c8440728e40
+Test #: 4
+Build #: ########
+Category: Game
+Test Case: Enemy Ai doesnt use buff or debuff/trap cards
+Expected Result: cards to be used
+Actual Result: cards not used
+Repeatable?: yes
+Blocker?: no
+Test Owner: Christopher Morales
+
+_id: 67233afa98a07c8440728e41
+Test #: 5
+Build #: ########
+Category: Game
+Test Case: When Rain of Arrows is on field and not triggered when prompt as ai places cards, the ai is limited on placeing guardain on field even if more are in hand for the ai to use. My just be strategy but can be aloow cheesing of AI
+Expected Result: Ai to place more guardians
+Actual Result: limited to 1 placement
+Repeatable?: yes
+Blocker?: no
+Test Owner: Christopher Morales
+
+_id: 67233afa98a07c8440728e42
+Test #: 6
+Build #: ########
+Category: Game/UI
+Test Case: When taking a card out of deck and trying to add it back into the deck, the add to deck gets locked up. Only back button or save lets you continue. Managed to duplicate Fire Croc with this bug once while saving the deck when bug occurs. Couldnt make the dupe happen again.
+Expected Result: for card to be added back
+Actual Result: card not added
+Repeatable?: yes
+Blocker?: no
+Test Owner: Christopher Morales
+
+_id: 67233afa98a07c8440728e44
+Test #: 1
+Build #: ########
+Category: Arena/UI/EndersGate
+Test Case: Bug: Master Volume still does not change sound output
+Expected Result: Move the slider to change the volume output
+Actual Result: Slider does not adjust voulme
+Repeatable?: yes
+Blocker?: no
+Test Owner: Denise Pacheco
+
+_id: 67233afa98a07c8440728e45
+Test #: 2
+Build #: ########
+Category: Arena/UI/EndersGate
+Test Case: Bug: Music Volume does not work
+Expected Result: Change the volume of the music with the slider
+Actual Result: The slider moves, but doesn't change the volume
+Repeatable?: yes
+Blocker?: no
+Test Owner: Denise Pacheco
+
+_id: 67233afa98a07c8440728e46
+Test #: 3
+Build #: ########
+Category: Arena/UI/EndersGate
+Test Case: Improvement: Make the palyers health points a different color from the background
+Expected Result: Can see health points during the whole game
+Actual Result: Can't see points when health bar depletes
+Repeatable?: yes
+Blocker?: no
+Test Owner: Denise Pacheco
+
+_id: 67233afa98a07c8440728e47
+Test #: 4
+Build #: ########
+Category: Arena/UI/EndersGate
+Test Case: Improvement: The scroll bar should stop at the last item
+Expected Result: Scroller stops after last card is fully shown
+Actual Result: Scroller bar goes far past the last item
+Repeatable?: yes
+Blocker?: no
+Test Owner: Denise Pacheco
+
+_id: 67233afa98a07c8440728e48
+Test #: nan
+Build #: ########
+Category: GAME
+Test Case: Clicking on the Hire Button (or any other button Set/Activate outstide the blue rectangle in the tutorial
+Expected Result: I should be able to click hire
+Actual Result: Hire icon will disappear. I can only click the Hire Icon if part of it is in the blue rectangle
+Repeatable?: yes
+Blocker?: no
+Test Owner: AB Paxtor Garcia
+
+_id: 67233afa98a07c8440728e49
+Test #: nan
+Build #: ########
+Category: GAME
+Test Case: In tutorial, hovering over a card in scope of blue rectangle
+Expected Result: The rectangle should resize to accommodate the card I select
+Actual Result: The blue rectangle increases size for some cards, but not all. Usually increases in size for the card that is in the center of rectangle
+Repeatable?: yes
+Blocker?: no
+Test Owner: AB Paxtor Garcia
+
+_id: 67233afa98a07c8440728e4a
+Test #: nan
+Build #: ########
+Category: GAME
+Test Case: In tutorial, activate event card when another card is over the event card
+Expected Result: I should be to select which one to use
+Actual Result: The card which is above a set card takes priority. For example, I had a set card below a guardian card. I had to hire the 
+guardian in order to activate my set card.
+Repeatable?: yes
+Blocker?: no
+Test Owner: AB Paxtor Garcia
+
+_id: 67233afa98a07c8440728e4b
+Test #: nan
+Build #: ########
+Category: GAME
+Test Case: In tutorial, selecting one card from multiple cards when instructed
+Expected Result: I should be able to change my selected card when I click
+Actual Result: The first click is final, meaning I am locked into that choice even if I did want to select another card.
+Repeatable?: yes
+Blocker?: no
+Test Owner: AB Paxtor Garcia
+
+_id: 67233afa98a07c8440728e4c
+Test #: nan
+Build #: ########
+Category: GAME
+Test Case: Alien Adacic's skill of dealing 50% damage two 2 Guardian
+Expected Result: I need to select two opposing Guardians to activate the effect
+Actual Result: Nah, I just selected one, and it worked. I assume the text is meant to say "Select up to 2 Guardians…" instead of "Select 
+2 Guardian
+Repeatable?: yes
+Blocker?: no
+Test Owner: AB Paxtor Garcia
+
+_id: 67233afa98a07c8440728e4e
+Test #: nan
+Build #: ########
+Category: GAME UI
+Test Case: Can't activate cards in other phases besides main ones
+Expected Result: Get a message saying I can't activate fcards
+Actual Result: I get the message, but its cutoff towards the end lol
+Repeatable?: yes
+Blocker?: yes
+Test Owner: AB Paxtor Garcia
+
+_id: 67233afa98a07c8440728e4f
+Test #: nan
+Build #: ########
+Category: UI
+Test Case: Going to deck builder to filter cards by free to use
+Expected Result: I should see all card event, guardian, the purple one (ngl I forgot the name of the card types)
+Actual Result: It only shows guardians lol
+Repeatable?: yes
+Blocker?: no
+Test Owner: AB Paxtor Garcia
+
+_id: 67233afa98a07c8440728e53
+Test #: 1
+Build #: ########
+Category: Login/UI/Game/Arena
+Test Case: ex Bug: selection of cards ex user: stays stuck on interface when trying to activate a action card
+Expected Result: activate card and move onto next phase
+Actual Result: failed to activate card had to leave window due to being unable to move forward through interface
+Repeatable?: yes
+Blocker?: no
+Test Owner: David Antonio Pedroza
+
+_id: 67233afa98a07c8440728e54
+Test #: 2
+Build #: ########
+Category: Login/UI/Game/Arena
+Test Case: ex Bug: Health Bar Numbers are not displaying correctly:
+
+Health bar numbers disappear intermittently during gameplay.
+Transparency issues make the numbers difficult to read against the interface background
+
+ex user: cannot see health bar and difficult to see due to being transparent with the interface
+Expected Result: see health bar go down
+Actual Result: bar stays at full and loses hp indicator
+Repeatable?: yes
+Blocker?: no
+Test Owner: David Antonio Pedroza
+
+_id: 67233afa98a07c8440728e55
+Test #: 3
+Build #: ########
+Category: Login/UI/Game/Arena
+Test Case: ex Bug: selecting option to activate a card during battle phase. ex user: cannot use activate card button and timer runs out quicker than alloted time
+Expected Result: be able to activate your card to deal damage to opponents while they are in their battle phase
+Actual Result: timer ran out and was unable to activate card button also non responsive
+Repeatable?: yes
+Blocker?: no
+Test Owner: David Antonio Pedroza
+
+_id: 67233afa98a07c8440728e56
+Test #: 4
+Build #: ########
+Category: Login/UI/Game/Arena
+Test Case: ex Bug: Your turn interface cotinues to repeat after showing once ex user: stays stuck on your turn interface and becomes unresponsive
+Expected Result: after showing your turn interface you are suppose to be allowed to draw a card
+Actual Result: it repeated the interface and was unable to draw card making the green innterface layout over the card stack unresponsive 
+Repeatable?: yes
+Blocker?: no
+Test Owner: David Antonio Pedroza
+
+_id: 67233afa98a07c8440728e57
+Test #: 5
+Build #: ########
+Category: Login/UI/Game/Arena
+Test Case: ex Bug: Has issues chosing next turn _ and main _ ex user: cannot proceed to choosing next turn to further play time
+Expected Result: oportunity to choose either main phase 2, battle phase, end turn
+Actual Result: was unable to choose turn and had to refresh page
+Repeatable?: yes
+Blocker?: no
+Test Owner: David Antonio Pedroza
+
+_id: 67233afa98a07c8440728e58
+Test #: 6
+Build #: ########
+Category: Login/UI/Game/Arena
+Test Case: ex Bug: Arena button not responsive unti second/third click ex user: unable to click arena interface button; not responsive until 2nd/3rd try (only on my windows
+Expected Result: chance to start arena and begin gameplay
+Actual Result: could not click Arena Button until 2nd or 3rd click
+Repeatable?: yes
+Blocker?: no
+Test Owner: David Antonio Pedroza
+
+_id: 67233afa98a07c8440728e59
+Test #: 7
+Build #: ########
+Category: Login/UI/Game/Arena
+Test Case: ex Bug: In the Hiring Interface, the hiring button behaves inconsistently:
+
+The button becomes unresponsive during gameplay, especially after Turn 4.
+Clicking the button does not always trigger the intended action, requiring multiple attempts.
+
+ex user: clicking on interface button for hiring is non responsive at times when playing and in turn further than 4
+Expected Result: want to hire more cards unable to after turn 4 and ahead
+Actual Result: difficulty hiring cards or activating after turn 4 mostly and forward
+Repeatable?: yes
+Blocker?: no
+Test Owner: David Antonio Pedroza
+
+_id: 67233afa98a07c8440728e5a
+Test #: 8
+Build #: ########
+Category: Login/UI/Game/Arena
+Test Case: ex Bug: During the Attack Phase, the attack arrow and hover functionality are inconsistent:
+
+The attack arrow sometimes disappears.
+Hovering over cards doesn’t always display the correct selection indicator.
+
+Ex user: Attack arrow disappear and hovering feature does not work always
+Expected Result: Hover over your opponents card and prepare to attack
+Actual Result: have to either click on it or make sure your attack gos through by spam clicking the card youd like to attack
+Repeatable?: yes
+Blocker?: no
+Test Owner: David Antonio Pedroza
+
+_id: 67233afa98a07c8440728e5b
+Test #: 9
+Build #: ########
+Category: Login/UI/Game/Arena
+Test Case: ex Bug: during trying to activate your action card while opponent is in main pahse # 1 it shows incorrect action card
+
+Ex user: action card doesnt activate while also presenting on the rightside where action cards give description give you a different one 
+from your deck
+Expected Result: activate action card to deal damage or do _ action
+Actual Result: cannot activate and shows another card desription of an action card that is in your deck instead of the one you have on hand (happened twice with Rain Of Arrows Card)
+Repeatable?: yes
+Blocker?: no
+Test Owner: David Antonio Pedroza
+
+_id: 67233afa98a07c8440728e5c
+Test #: 1
+Build #: ########
+Category: MainMenu/UI
+Test Case: Dismiss Tutorial Permanently
+Expected Result: A button to stop popup
+Actual Result: Play tutorial message always shows on menu startup
+Repeatable?: yes
+Blocker?: no
+Test Owner: Alessandro Pelayo
+
+_id: 67233afa98a07c8440728e5d
+Test #: 2
+Build #: ########
+Category: MainMenu/UI
+Test Case: Friends Tab Animation Smoothness
+Expected Result: Tab opens/closes smoothly
+Actual Result: Stops momentarily then continues to open
+Repeatable?: yes
+Blocker?: no
+Test Owner: Alessandro Pelayo
+
+_id: 67233afa98a07c8440728e5e
+Test #: 3
+Build #: ########
+Category: MainMenu/UI
+Test Case: Dismiss Open tabs if another Button is selected
+Expected Result: Tab Closes automatically if another tab is selected
+Actual Result: Tabs will overlap without closing
+Repeatable?: yes
+Blocker?: no
+Test Owner: Alessandro Pelayo
+
+_id: 67233afa98a07c8440728e60
+Test #: 2
+Build #: ########
+Category: Game
+Test Case: User Case: Game is too laggy
+Expected Result: Game functions properly across all devices
+Actual Result: Game lags on a tablet laptop
+Repeatable?: yes
+Blocker?: no
+Test Owner: Renzo Pereyra
+
+_id: 67233afa98a07c8440728e61
+Test #: 3
+Build #: ########
+Category: Game
+Test Case: User Case: Cursor does not highlight target area
+Expected Result: Cursor should highlight which cards/area to attack
+Actual Result: Cursor does not highlight the area which to attack.
+Repeatable?: yes
+Blocker?: no
+Test Owner: Renzo Pereyra
+
+_id: 67233afa98a07c8440728e62
+Test #: 1
+Build #: ########
+Category: Game/UI
+Test Case: Clicking the return button in the Adventure menu (on The Kingdom) does not do anything.
+Expected Result: Pressing the return button should return the player to the previous screen
+Actual Result: Nothing happens when button is pressed
+Repeatable?: yes
+Blocker?: No
+Test Owner: Joshua Planovsky
+
+_id: 67233afa98a07c8440728e63
+Test #: 2
+Build #: ########
+Category: Game/UI
+Test Case: Clicking the home button in the Adventure menu (on the Kingdom) does not return the user to the main menu.
+Expected Result: Much like the return button, pressing the home button should return the player to the main menu
+Actual Result: Nothing happens when button is pressed player is stuck in adventure mode unable to return
+Repeatable?: yes
+Blocker?: Yes
+Test Owner: Joshua Planovsky
+
+_id: 67233afa98a07c8440728e64
+Test #: 3
+Build #: ########
+Category: Settings/UI
+Test Case: Clicking the X button on the settings menu while matchmaking does not perform any action.
+Expected Result: Pressing the X button should close the settings menu whether in Matchmaking or not.
+Actual Result: Player ends up trapped in settings menu while matchmaking unless they press the cancel button on the bottom.
+Repeatable?: yes
+Blocker?: No
+Test Owner: Joshua Planovsky
+
+_id: 67233afa98a07c8440728e65
+Test #: 4
+Build #: ########
+Category: Gameplay/Visuals
+Test Case: When hiring a character the entrire arena shakes causing the decks to dip into and clip through the game arena.
+Expected Result: Decks should not clip through the arena.
+Actual Result: Decks slip through the game arena.
+Repeatable?: yes
+Blocker?: No
+Test Owner: Joshua Planovsky
+
+_id: 67233afa98a07c8440728e66
+Test #: 5
+Build #: ########
+Category: Gameplay/Mechanics
+Test Case: At the start of the game the game does not transition from standby to main phase #1 automatically.
+Expected Result: As it does throughout the rest of the match, the game should automatically transition between round phases
+Actual Result: Players are required to manually transition the round themselves leading to a jarring experience
+Repeatable?: yes
+Blocker?: yes
+Test Owner: Joshua Planovsky
+
+_id: 67233afa98a07c8440728e67
+Test #: 6
+Build #: ########
+Category: Gameplay/UI
+Test Case: When entering the settings during a match, players are presented with different camera settings with one checkmarked and the other left with a blank box. Trying to change these settings does not do anything as they do not register input.
+Expected Result: Clicking between the different camera options should visually change the player's perspective
+Actual Result: Clicking either box for these options does not do anything
+Repeatable?: yes
+Blocker?: no
+Test Owner: Joshua Planovsky
+
+_id: 67233afa98a07c8440728e69
+Test #: 1
+Build #: ########
+Category: Game
+Test Case: bug: End Game Victory plays multiple times
+Expected Result: Game ends after killing blow and victory screen plays
+Actual Result: After killing blow, the game takes a couple of seconds to register, allowing me to keep attacking with other cards, causing victory to repeat the amount of extra attacks I did
+Repeatable?: yes
+Blocker?: no
+Test Owner: Crayn Sanchez
+
+_id: 67233afa98a07c8440728e6a
+Test #: 2
+Build #: ########
+Category: Game
+Test Case: user case: Game tends to lag spike
+Expected Result: Draw cards, choose cards to play or attack, and switch between player and AI
+Actual Result: Game usually lags when switching between these actions, sometimes causing me confusion when an action doesn't register immediately and I attempt to perform other actions after
+Repeatable?: yes
+Blocker?: no
+Test Owner: Crayn Sanchez
+
+_id: 67233afa98a07c8440728e6b
+Test #: 3
+Build #: ########
+Category: Game
+Test Case: user case: Quick button to go to next phase
+Expected Result: Chose the phase button to select to go to the next phase or view which phase you are in
+Actual Result: Would like a way to quickly go to the next phase without having to click the phase button every time
+Repeatable?: yes
+Blocker?: no
+Test Owner: Crayn Sanchez
+
+_id: 67233afa98a07c8440728e6d
+Test #: 2
+Build #: ########
+Category: Login/UI/Game/Main Page/Arena
+Test Case: activating trap cards
+Expected Result: be able to click the trap card and use it
+Actual Result: it is a hit or miss when I can use the trap card
+Repeatable?: yes
+Blocker?: no
+Test Owner: Alberto Santana
+
+_id: 67233afa98a07c8440728e6f
+Test #: 1
+Build #: ########
+Category: Game
+Test Case: Turn Change
+Expected Result: When time runs out move to next phase of turn
+Actual Result: Turn end when time runs out
+Repeatable?: yes
+Blocker?: no
+Test Owner: Robert Stevenson
+
+_id: 67233afa98a07c8440728e70
+Test #: 2
+Build #: ########
+Category: Game
+Test Case: Turn Timer
+Expected Result: Some kind of noise or notification when turn is about to end
+Actual Result: Turn ends without notice
+Repeatable?: yes
+Blocker?: no
+Test Owner: Robert Stevenson
+
+_id: 67233afa98a07c8440728e71
+Test #: 3
+Build #: ########
+Category: Game
+Test Case: Turn Length
+Expected Result: Turn length lasts longer or adds more time when changing phase
+Actual Result: Shared time for turn
+Repeatable?: yes
+Blocker?: no
+Test Owner: Robert Stevenson
+
+_id: 67233afa98a07c8440728e72
+Test #: 4
+Build #: ########
+Category: Game
+Test Case: Screen Shake
+Expected Result: Less screen shake when taking damage
+Actual Result: Screen shakes too much
+Repeatable?: yes
+Blocker?: no
+Test Owner: Robert Stevenson
+
+_id: 67233afa98a07c8440728e73
+Test #: 1
+Build #: ########
+Category: Login/UI/Metamask
+Test Case: When trying to log in using Metamask, the wallet connection fails if not already logged in.
+Expected Result: Metamask should prompt to log in if not already logged in.
+Actual Result: User is not prompted and login fails silently.
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Mahdi
+
+_id: 67233afa98a07c8440728e74
+Test #: 2
+Build #: ########
+Category: Gameplay/Tutorial
+Test Case: While playing the First Gameplay Tutorial, card animations lag and freeze.
+Expected Result: Smooth card animations during the tutorial.
+Actual Result: Cards freeze for a few seconds during the animations.
+Repeatable?: Yes
+Blocker?: No
+Test Owner: Matt
+
+_id: 67233afa98a07c8440728e75
+Test #: 3
+Build #: ########
+Category: Deck Builder
+Test Case: The Deck Builder doesn’t allow saving a newly created deck.
+Expected Result: Newly created deck should be saved and visible in the deck list.
+Actual Result: Deck is not saved, and there is no error message displayed.
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Matteo
+
+_id: 67233afa98a07c8440728e76
+Test #: 4
+Build #: ########
+Category: Arena/Matchmaking
+Test Case: When attempting to join an arena match, the matchmaking queue gets stuck at “Searching for opponent”.
+Expected Result: Matchmaking should successfully find an opponent within a reasonable time frame.
+Actual Result: Queue remains stuck for over 5 minutes without finding an opponent.
+Repeatable?: Yes
+Blocker?: Yes
+Test Owner: Shervin
+
+_id: 67233afa98a07c8440728e77
+Test #: 5
+Build #: ########
+Category: Arena/UI
+Test Case: In the arena, after a match is over, the “Rematch” button does not respond when clicked.
+Expected Result: Clicking the “Rematch” button should start a new match with the same opponent.
+Actual Result: The button appears to click but nothing happens.
+Repeatable?: Yes
+Blocker?: No
+Test Owner: Kian
+
+_id: 67233afa98a07c8440728e7e
+Test #: 3
+Build #: ########
+Category: Login
+Test Case: Unable to search through wallets
+Expected Result: text that I'm typing to appear in the wallet search bard
+Actual Result: nothing
+Repeatable?: yes
+Blocker?: no
+Test Owner: Dakota Wagner
+
+_id: 67233afa98a07c8440728e7f
+Test #: 4
+Build #: ########
+Category: Main Page
+Test Case: Open main menu after declining tutorial
+Expected Result: remember my answer
+Actual Result: asks me every time if I want to play tutorial
+Repeatable?: yes
+Blocker?: no
+Test Owner: Dakota Wagner
+
+_id: 67233afa98a07c8440728e80
+Test #: 5
+Build #: ########
+Category: Login
+Test Case: Reloading page
+Actual Result: makes me re-login every single time
+Repeatable?: yes
+Blocker?: no
+Test Owner: Dakota Wagner
+
+_id: 67233afa98a07c8440728e81
+Test #: 1
+Build #: ########
+Category: Game
+Test Case: Does not let me change my camera settings
+Expected Result: I want to change my Orthographics
+Actual Result: Game wont let me check the Orthographics checkbox
+Repeatable?: Yes
+Blocker?: No
+Test Owner: Nathan Wahba
+
+_id: 67233afa98a07c8440728e83
+Test #: 3
+Build #: ########
+Category: Menu
+Test Case: Does not let you save after clicking default settings
+Expected Result: I wanted to save the sound settings after pressing return to default
+Actual Result: The Sound automatically went up after clicking that
+Repeatable?: Yes
+Blocker?: No
+Test Owner: Nathan Wahba
+
+Total repeatable rows found: 1149
+Number of duplicates found: 121

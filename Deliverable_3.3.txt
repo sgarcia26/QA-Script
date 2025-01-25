@@ -1,0 +1,61 @@
+####################################################################################################################
+# Sergio Garcia
+# 10/31/2024
+# COMP 467
+# Project 2 - The Reckoning
+# Deliverable 2
+# 2. Console output of all runs (each individual -  3 Total runs (Weekly assignment 4-6) and then final collective QA CSV, these runs should populate the database) along with runs to answer database questions below
+####################################################################################################################
+
+PS C:\Users\garci> python "C:\Users\garci\ProTest2\Project2_SG.py" --qa_excel "C:\Users\garci\ProTest2\EG4-DBDump_Fall2024.xlsx" --collection collection2
+Initial data in collection Collection 2: 0
+Initial number of rows to insert: 1601
+Duplicates #: 0
+Rows with empty cells: 220
+Repeatable? #: 1256       
+Blocker? #: 503
+Data inserted #: 1601 into Collection 2.
+Data inserted into MongoDB collection successfully.
+PS C:\Users\garci> 
+PS C:\Users\garci> python "C:\Users\garci\ProTest2\Project2_SG.py" --qa_excel "C:\Users\garci\ProTest2\COMP467_Weekly_Assigment_4_SergioGarcia.xlsx" --collection collection1
+Initial data in collection Collection 1: 0
+Initial number of rows to insert: 5
+Duplicates #: 0
+Rows with empty cells: 0
+Repeatable? #: 5
+Blocker? #: 2
+Data inserted #: 5 into Collection 1.
+Data inserted into MongoDB collection successfully.
+PS C:\Users\garci> 
+PS C:\Users\garci> python "C:\Users\garci\ProTest2\Project2_SG.py" --qa_excel "C:\Users\garci\ProTest2\COMP467_Weekly_Assigment_5_SergioGarcia.xlsx"--collection collection1
+Initial data in collection Collection 1: 5
+Initial number of rows to insert: 4
+Duplicates #: 0
+Rows with empty cells: 0
+Repeatable? #: 3
+Blocker? #: 0
+Data inserted #: 4 into Collection 1.
+Data inserted into MongoDB collection successfully.
+PS C:\Users\garci> 
+PS C:\Users\garci> python "C:\Users\garci\ProTest2\Project2_SG.py" --qa_excel "C:\Users\garci\ProTest2\COMP467_Weekly_Assigment_6_SergioGarcia.xlsx" --collection collection1
+Initial data in collection Collection 1: 9
+Initial number of rows to insert: 7
+Duplicates #: 0
+Rows with empty cells: 0
+Repeatable? #: 6
+Blocker? #: 1
+Data inserted #: 7 into Collection 1.
+Data inserted into MongoDB collection successfully.
+
+####################################################################################################################
+If i try to re-insert the same file duplicates are caught and no data is inserted
+####################################################################################################################
+
+PS C:\Users\garci> python "C:\Users\garci\ProTest2\Project2_SG.py" --qa_excel "C:\Users\garci\ProTest2\COMP467_Weekly_Assigment_6_SergioGarcia.xlsx" --collection collection1
+Initial data in collection Collection 1: 16
+Initial number of rows to insert: 7
+Duplicates #: 7
+Rows with empty cells: 0
+Repeatable? #: 6
+Blocker? #: 1
+No valid data to insert into MongoDB collection.
